@@ -1,0 +1,10 @@
+# meta
+title: Full Stack Toronto
+email: your-email@domain.com
+description: "Full Stack Toronto is a non-profit organization that provides web developers with access to education and resources that cover intermediate to advanced web development, free of commercial content. We run monthly meetups and an annual conference #fstoconf15 presented by TELUS"
+keywords: [fullstack, full stack, toronto, ontario, canada, conference, web, development, devleopers, fsto, fsto.co, fstoco, fstoconf15, meetup]
+url: "https://fsto.co"
+
+# build
+markdown: kramdown
+highlighter: pygments

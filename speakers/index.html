@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section id="masthead-sm" class="sub-header red-poly">
+  <div class="container">
+    <div class="row">
+      <h2>Speakers</h2>
+      <h3>Nov. 14-15, 2015</h3>
+      <h4><a href="http://fstoconf15.eventbrite.ca" class="btn btn-success btn-lg">Buy Tickets!</a></h4>
+    </div>
+  </div>
+</section>
+<section id="speakers">
+  <div class="container">
+    <div class="row col-md-12">
+      <p>We're putting together a fully stacked set of speakers. Take a few moments to get to know them before the conference so you can optimize your experience to take in as much as possible! We will be updating this page as more speakers are announced.
+    </div>
+    {{#grouped_each 2 speakers}}
+    <div class="row">
+      {{#each this}}
+      <article class="speaker col-md-6">
+        <img src="{{this.profile.secure_url}}" alt="{{this.name.first}} {{this.name.last}} Headshot">
+        <h3 id="{{this.name.first}}-{{this.name.last}}">{{this.name.first}} {{this.name.last}}</h3>
+        <h4><a class="twitter-follow-button" href="https://twitter.com/{{this.twitter}}" data-show-count="false" data-lang="en">{{this.twitter}}</a></h4>
+        <h4 class="code">{{this.title}}</h4>
+        <h4 class="code">{{this.location.suburb}}, {{this.location.state}}, {{this.location.country}}</h4>
+        {{{this.bio}}}
+      </article>
+      {{/each}}
+    </div>
+    {{/grouped_each}}
+  </div>
+</section>
+<script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>

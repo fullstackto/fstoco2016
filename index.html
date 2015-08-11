@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+<section id="masthead" class="red-poly">
+  <div class="container">
+    <div class="row">
+      <h1>#fstoconf15</h1>
+      <h2>focusing on all layers of web development</h2>
+      <h3>Nov. 14-15, 2015</h3>
+      <h3>Toronto, Canada</h3>
+      <h4><a href="http://fstoconf15.eventbrite.ca" class="btn btn-success btn-lg">Buy Tickets!</a></h4>
+    </div>
+  </div>
+</section>
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Full Stack Toronto</h2>
+        <p>Full Stack Toronto is a non-profit organization that provides web developers with access to education and resources that cover intermediate to advanced web development, free of commercial content.</p>
+
+        <p>Speakers at Full Stack Toronto events are subject matter experts with extensive industry experience. Attendees will walk away having not only learned the why of what they're doing, but also how to execute on ideas.</p>
+
+        <p>Workshop-style sessions with a focus on all layers of web development—in a commercial free environment—is what really sets Full Stack Toronto events apart from all other development events.</p>
+      </div>
+      <div class="col-md-6">
+        <h2>Our Conference #fstoconf15</h2>
+        <p>Full Stack Toronto Conference hosts speakers from around the world and across the stack! We organize things a bit differently too, all of our sessions are workshop-style where you can expect to leave with actionable items to continue your career growth, we keep the sessions free of commercial content so you don’t feel like you have been pitched to, and we leave ample time for you to network with your peers to learn about how they approach similar problems.</p>
+
+        <p>This year we are excited to bring you the same commitment to awesome content and opportunities paired with improvements from your valued feedback.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="quotes" class="blue-poly">
+  <div class="quote">"Great material, well presented and well targeted to the audience. Presented a case you could implement yourself in a few mins"</div>
+
+  <div class="quote">"Great job! Generally speaking, this is exactly the sort of conference I want to be going to. Useful, interesting, not overly introductory."</div>
+
+  <div class="quote">"Show us your stack talks were a great opportunity to see how other companies structure their systems."</div>
+
+  <div class="quote">"Lots of great content, awesome to see friends and meet the out of towners."</div>
+
+  <div class="quote">"... the first FullStack TO conference focused on the most important thing, and succeeded. Good talks first, ..." - @dglozic</div>
+
+  <div class="quote">"It was for sure one of the best conferences this year! Amazing talks! Amazing people! Big thx to organizers. -@twitanvk</div>
+
+  <div class="quote">"#fstoconf14 was well worth attending. Huge thanks to the organizers and speakers!" - codatrix</div>
+
+  <div class="quote">"The #fstoconf14 networking session turned out to be awesome; I met a lot of cool people doing cool shit" - @ArcadeErrorWin</div>
+</section>
+<section id="streams">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Our Content Focus</h2>
+      </div>
+      <div class="col-md-3 stream">
+        <div class="stream-img">
+          <img src="/static/images/suys.png" alt="Show Us Your Stack" />
+        </div>
+        <h3>Show Us Your Stack</h3>
+        <p>These talks are all about showing off a company’s development process. From the challenges they faced implementing their stack and how they overcame them. You will learn tips and tricks for using the same stack successfully.</p>
+      </div>
+      <div class="col-md-3 stream">
+        <div class="stream-img">
+          <img src="/static/images/ol.png" alt="Operational Layer" />
+        </div>
+        <h3>Operational Layer</h3>
+        <p>These talks are all about keeping everything running smoothly! The presentation and management layers. Topics include: continuous deployment, project management, user experience, web performance, web accessibility, web design, user experience, team building and more.</p>
+      </div>
+      <div class="col-md-3 stream">
+        <div class="stream-img">
+          <img src="/static/images/pl.png" alt="Programming Layer" />
+        </div>
+        <h3>Programming Layer</h3>
+        <p>These talks are all about getting everything to work! The application and data layers. These sessions cover topics like front-end development languages, back-end development languages, APIs, databases, big data, architecture and more.</p>
+      </div>
+      <div class="col-md-3 stream">
+        <div class="stream-img">
+          <img src="/static/images/cc.png" alt="Creative Code" />
+        </div>
+        <h3>Creative Code</h3>
+        <p>These talks are for the hackers, inventors, tinkerers, and shift disturbers out there! In a non-commercial manner we’ll showcase how full stack is used to change everyday life, connect the hardware and software worlds, and other creative uses of full stack code.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="center">
+        <h4><a href="http://fstoconf15.eventbrite.ca" class="btn btn-success btn-lg">Buy Tickets!</a></h4>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+$(function(){
+  var quotes = $(".quote");
+  var count = 0;
+  setInterval(function(){
+    $(quotes[count]).fadeOut(500);
+    if(count == quotes.length-1){
+      count = 0;
+    } else{
+      count ++;
+    }
+    $(quotes[count]).delay(500).fadeIn(500);
+  }, 8000);
+});
+</script>

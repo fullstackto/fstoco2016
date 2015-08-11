@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <div id="mobile-nav">
+      <nav>
+        <ul>
+          <!-- {{# each navLinks}}
+          <li {{#ifeq ../section key}}class="active"{{else}}{{/ifeq}}>
+            <a href="{{ href }}">{{ label }}</a>
+          </li>
+          {{/each}} -->
+        </ul>
+      </nav>
+    </div>
+    <div id="page">
+    <header>
+      <div class="container">
+        <div id="logo">
+          <a href="/"><img src="/static/images/logo.png" alt="Full Stack Toronto" /></a>
+        </div>
+        <div id="presented">
+          <div id="telus">
+            <a href="http://www.telus.com/"><img src="/static/images/Telus.jpg" alt="TELUS" /></a>
+          </div>
+        </div>
+        <div id="hamburger">
+          <button class="burger"><img src="/static/images/icon-menu.svg" alt="" /></button>
+          <button class="bun">&#10006;</button>
+        </div>
+        <nav>
+          <ul>
+            <!-- {{# each navLinks}}
+            <li {{#ifeq ../section key}}class="active"{{else}}{{/ifeq}}>
+              <a href="{{ href }}">{{ label }}</a>
+            </li>
+            {{/each}} -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+  <script>
+    $(function(){
+      $("#hamburger").click(function(){
+        $("#page").toggleClass("open");
+        $("#hamburger").toggleClass("open");
+        $("#mobile-nav").toggleClass("open");
+      })
+    });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48190009-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  </body>
+</html>
