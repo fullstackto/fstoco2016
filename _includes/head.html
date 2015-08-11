@@ -1,16 +1,17 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}"/>
 
-  <link rel="stylesheet" href="/static/css/main.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="stylesheet" href="/static/css/main.css"/>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}"/>
 
   <meta property="og:title" content="{{ site.title }}"/>
   <meta property="og:url" content="{{ site.url }}"/>
   <meta property="og:description" content="{{ site.description }}"/>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>

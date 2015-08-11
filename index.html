@@ -93,17 +93,17 @@ layout: default
   </div>
 </section>
 <script>
-$(function(){
-  var quotes = $(".quote");
-  var count = 0;
-  setInterval(function(){
-    $(quotes[count]).fadeOut(500);
-    if(count == quotes.length-1){
-      count = 0;
-    } else{
-      count ++;
-    }
-    $(quotes[count]).delay(500).fadeIn(500);
-  }, 8000);
-});
+  $(function(){
+    var quotes = $(".quote");
+    var count = 0;
+    setInterval(function(){
+      $(quotes[count]).fadeOut(500);
+      if(count == quotes.length-1){
+        count = 0;
+      } else{
+        count ++;
+      }
+      $(quotes[count]).delay(500).fadeIn(500);
+    }, 8000);
+  });
 </script>
