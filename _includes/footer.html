@@ -16,8 +16,8 @@
     {% for group in site.data.sponsors.groups %}
       {% if groups contains group.id %}
         <div id="{{ group.name | downcase }}" class="row">
-          {% if group.name == "Partners" %}
-            <h2>{{ group.name }}</h2>
+          {% if group.name == "Partner" %}
+            <h2>Partners</h2>
           {% else %}
             {% if group.name == "Presenting" %}
               <h2>{{ group.name }} Sponsor</h2>
