@@ -9,23 +9,25 @@ layout: default
     </div>
   </div>
 </section>
+
 <section id="speakers">
   <div class="container">
     <div class="row col-md-12">
-      {{#if releases}}
-      <h3>Press Releases</h3>
-      <ul>
-      {{#each releases}}
-        <li><a href="/press/{{this.slug}}">{{this.title}}</a></li>
-      {{/each}}
-      </ul>
-      {{/if}}
+      {% if site.data.press %}
+        <h3>Press Releases</h3>
+        <ul>
+        {% for release in site.data.press %}
+          <li><a href="/press/{{ release.slug }}">{{ release.title }}</a></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+
       <h3>About Full Stack Toronto</h3>
       <p>About Full Stack Toronto
 Full Stack Toronto is a non-profit organization that provides web developers with access to education and resources that cover intermediate to advanced topics, free of commercial content.</p>
       <h3>Media Contact</h3>
-      <p>James Wilkinson<br />
-      james.wilkinson@fsto.co</p>
+      <p>James Wilkinson<br/>
+      <a href="mailto:james.wilkinson@fsto.co">james.wilkinson@fsto.co</a></p>
     </div>
   </div>
 </section>

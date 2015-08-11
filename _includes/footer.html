@@ -1,4 +1,6 @@
-<!-- <section id="sponsors-title" class="green-poly">
+{% assign groups = site.data.sponsors.items | map: 'group_ids' | join: ',' %}
+
+<section id="sponsors-title" class="green-poly">
   <div class="container">
     <div class="row col-md-12">
       <h2>Partners &amp; Sponsors</h2>
@@ -11,30 +13,32 @@
     <div class="row col-md-12">
       <p>Want to help us help others? Visit the <a href="/sponsor">sponsor page</a> to learn more about our opportunities.</p>
     </div>
-    {{#each sponsors}}
-    {{#if this}}
-    <div id="{{toLowerCase @key}}" class="row">
-      {{#ifCond @key "Partners"}}
-        <h2>{{@key}}</h2>
-      {{else}}
-        {{#ifCond @key "Presenting"}}
-          <h2>{{@key}} Sponsor</h2>
-          {{else}}
-          <h2>{{@key}} Sponsors</h2>
-        {{/ifCond}}
-      {{/ifCond}}
+    {% for group in site.data.sponsors.groups %}
+      {% if groups contains group.id %}
+        <div id="{{ group.name | downcase }}" class="row">
+          {% if group.name == "Partner" %}
+            <h2>{{ group.name }}</h2>
+          {% else %}
+            {% if group.name == "Presenting" %}
+              <h2>{{ group.name }} Sponsor</h2>
+            {% else %}
+              <h2>{{ group.name }} Sponsors</h2>
+            {% endif %}
+          {% endif %}
 
-      {{#each this}}
-      <div class="sponsor">
-        <a href="{{this.website}}" rel="external"><img src="{{this.logo.secure_url}}"></a>
-      </div>
-      {{/each}}
-    </div>
-    {{/if}}
-    {{/each}}
+          {% for sponsor in site.data.sponsors.items %}
+            {% if sponsor.group_ids contains group.id %}
+              <div class="sponsor">
+                <a href="{{ sponsor.name }}" rel="external"><img src="http://s3.amazonaws.com/eventmobi-assets/eventsbyids/9565/exhibitors/{{ sponsor.logo_large_wide }}"></a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
- -->
+
 <footer>
   <div class="container">
     <div class="row col-md-12">
