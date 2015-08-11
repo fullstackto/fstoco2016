@@ -1,3 +1,4 @@
+{% assign current = page.url | remove: "index.html" %}
 <!DOCTYPE html>
 <html>
   {% include head.html %}
@@ -6,11 +7,11 @@
     <div id="mobile-nav">
       <nav>
         <ul>
-          <!-- {{# each navLinks}}
-          <li {{#ifeq ../section key}}class="active"{{else}}{{/ifeq}}>
-            <a href="{{ href }}">{{ label }}</a>
-          </li>
-          {{/each}} -->
+          {% for nav in site.data.nav %}
+            <li {% if current == nav.href %} class="active" {% endif %}>
+              <a href="{{ nav.href }}">{{ nav.text }}</a>
+            </li>
+          {% endfor %}
         </ul>
       </nav>
     </div>
@@ -31,11 +32,11 @@
         </div>
         <nav>
           <ul>
-            <!-- {{# each navLinks}}
-            <li {{#ifeq ../section key}}class="active"{{else}}{{/ifeq}}>
-              <a href="{{ href }}">{{ label }}</a>
+          {% for nav in site.data.nav %}
+            <li {% if current == nav.href %} class="active" {% endif %}>
+              <a href="{{ nav.href }}">{{ nav.text }}</a>
             </li>
-            {{/each}} -->
+          {% endfor %}
           </ul>
         </nav>
       </div>

@@ -35,19 +35,12 @@ layout: default
 </section>
 <section id="quotes" class="blue-poly">
   <div class="quote">"Great material, well presented and well targeted to the audience. Presented a case you could implement yourself in a few mins"</div>
-
   <div class="quote">"Great job! Generally speaking, this is exactly the sort of conference I want to be going to. Useful, interesting, not overly introductory."</div>
-
   <div class="quote">"Show us your stack talks were a great opportunity to see how other companies structure their systems."</div>
-
   <div class="quote">"Lots of great content, awesome to see friends and meet the out of towners."</div>
-
   <div class="quote">"... the first FullStack TO conference focused on the most important thing, and succeeded. Good talks first, ..." - @dglozic</div>
-
   <div class="quote">"It was for sure one of the best conferences this year! Amazing talks! Amazing people! Big thx to organizers. -@twitanvk</div>
-
   <div class="quote">"#fstoconf14 was well worth attending. Huge thanks to the organizers and speakers!" - codatrix</div>
-
   <div class="quote">"The #fstoconf14 networking session turned out to be awesome; I met a lot of cool people doing cool shit" - @ArcadeErrorWin</div>
 </section>
 <section id="streams">
@@ -56,6 +49,7 @@ layout: default
       <div class="col-md-12">
         <h2>Our Content Focus</h2>
       </div>
+
       <div class="col-md-3 stream">
         <div class="stream-img">
           <img src="/static/images/suys.png" alt="Show Us Your Stack" />
@@ -63,6 +57,7 @@ layout: default
         <h3>Show Us Your Stack</h3>
         <p>These talks are all about showing off a company’s development process. From the challenges they faced implementing their stack and how they overcame them. You will learn tips and tricks for using the same stack successfully.</p>
       </div>
+
       <div class="col-md-3 stream">
         <div class="stream-img">
           <img src="/static/images/ol.png" alt="Operational Layer" />
@@ -70,6 +65,7 @@ layout: default
         <h3>Operational Layer</h3>
         <p>These talks are all about keeping everything running smoothly! The presentation and management layers. Topics include: continuous deployment, project management, user experience, web performance, web accessibility, web design, user experience, team building and more.</p>
       </div>
+
       <div class="col-md-3 stream">
         <div class="stream-img">
           <img src="/static/images/pl.png" alt="Programming Layer" />
@@ -77,6 +73,7 @@ layout: default
         <h3>Programming Layer</h3>
         <p>These talks are all about getting everything to work! The application and data layers. These sessions cover topics like front-end development languages, back-end development languages, APIs, databases, big data, architecture and more.</p>
       </div>
+
       <div class="col-md-3 stream">
         <div class="stream-img">
           <img src="/static/images/cc.png" alt="Creative Code" />
@@ -94,16 +91,19 @@ layout: default
 </section>
 <script>
   $(function(){
-    var quotes = $(".quote");
-    var count = 0;
-    setInterval(function(){
-      $(quotes[count]).fadeOut(500);
-      if(count == quotes.length-1){
-        count = 0;
-      } else{
-        count ++;
+    var quotes = $('.quote')
+    var count = 0
+
+    setInterval(function () {
+      $(quotes[count]).fadeOut(500)
+
+      if (count == quotes.length-1) {
+        count = 0
+      } else {
+        count ++
       }
-      $(quotes[count]).delay(500).fadeIn(500);
-    }, 8000);
-  });
+
+      $(quotes[count]).delay(500).fadeIn(500)
+    }, 8000)
+  })
 </script>

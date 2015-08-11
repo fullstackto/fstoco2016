@@ -13,15 +13,6 @@ layout: default
 <section id="speakers">
   <div class="container">
     <div class="row col-md-12">
-      {% if site.data.press %}
-        <h3>Press Releases</h3>
-        <ul>
-        {% for release in site.data.press %}
-          <li><a href="/press/{{ release.slug }}">{{ release.title }}</a></li>
-        {% endfor %}
-        </ul>
-      {% endif %}
-
       <h3>About Full Stack Toronto</h3>
       <p>About Full Stack Toronto
 Full Stack Toronto is a non-profit organization that provides web developers with access to education and resources that cover intermediate to advanced topics, free of commercial content.</p>
