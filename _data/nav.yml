@@ -1,11 +1,14 @@
 - text: Home
   href: /
 
-- text: Seakers
+- text: Speakers
   href: /speakers/
 
 - text: Schedule
   href: /schedule/
+  
+- text: Sponsor
+  href: /sponsor/
 
 - text: Buy Tickets
   href: https://fstoconf15.eventbrite.ca/
