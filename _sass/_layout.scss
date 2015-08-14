@@ -300,11 +300,6 @@ header {
   .stream-img {
     text-align: center;
     height: 60px;
-    img {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
   }
 }
 
@@ -431,7 +426,9 @@ footer {
   color: #fff;
   padding: 64px 0;
 }
-
+.clearfix {
+  clear: both;
+}
 #partner, #bronze, #friend, #gold, #silver, #platnium, #presenting {
   text-align: center;
   padding: 0 15px;
@@ -448,9 +445,6 @@ footer {
       max-width: 100%;
       max-height: 100%;
       width: auto;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
     }
   }
 }

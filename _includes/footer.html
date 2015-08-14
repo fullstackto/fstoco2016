@@ -13,36 +13,74 @@
     <div class="row col-md-12">
       <p>Want to help us help others? Visit the <a href="/sponsor">sponsor page</a> to learn more about our opportunities.</p>
     </div>
-    {% for group in site.data.sponsors.groups %}
-      {% if groups contains group.id %}
-        <div id="{{ group.name | downcase }}" class="row">
-          {% if group.name == "Partner" %}
-            <h2>Partners</h2>
-          {% else %}
-            {% if group.name == "Presenting" %}
-              <h2>{{ group.name }} Sponsor</h2>
-            {% else %}
-              <h2>{{ group.name }} Sponsors</h2>
-            {% endif %}
-          {% endif %}
-
-          {% for sponsor in site.data.sponsors.items %}
-            {% if sponsor.group_ids contains group.id %}
-              <div class="sponsor">
-                <a href="{{ sponsor.website }}" rel="external"><img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/9565/exhibitors/{{ sponsor.logo_large_wide }}"></a>
-              </div>
-            {% endif %}
-          {% endfor %}
+    <div class="row col-md-12">
+        <div id="presenting">
+          <h2>Presenting Sponsor</h2>
+          <div class="sponsor">
+            <a href="//telus.com"><img src="/static/images/sponsors/telus.png" alt="TELUS" /></a>
+          </div>
         </div>
-      {% endif %}
-    {% endfor %}
+        <div class="clearfix"></div>
+        <div id="gold">
+          <h2>Gold Sponsors</h2>
+          <div class="sponsor">
+            <a href="//mandrill.com"><img src="/static/images/sponsors/mandrill.png" alt="Mandrill" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="//syncano.com"><img src="/static/images/sponsors/SYNCANO.png" alt="SYNCANO" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="//twilio.com"><img src="/static/images/sponsors/twilio.png" alt="Twilio" /></a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div id="silver">
+          <h2>Silver Sponsors</h2>
+          <div class="sponsor">
+            <a href="//rangle.io"><img src="/static/images/sponsors/rangleio.png" alt="Rangle IO" /></a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div id="bronze">
+          <h2>Bronze Sponsors</h2>
+          <div class="sponsor">
+            <a href="//heroku.com"><img src="/static/images/sponsors/heroku.png" alt="heroku" /></a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div id="partner">
+          <h2>Partners</h2>
+          <div class="sponsor">
+            <a href="http://velocityconf.com/devops-web-performance-ny-2015"><img src="/static/images/sponsors/velocity.png" alt="Velocity Conf" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.oreilly.com/"><img src="/static/images/sponsors/oreilly.png" alt="O'Reilly Media" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.mindfulsnacks.com/"><img src="/static/images/sponsors/mindfulsnacks.png" alt="Mindful Snacks" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://ionicframework.com/"><img src="/static/images/sponsors/ionic.png" alt="ionic" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://www.meetup.com/devtoevents/"><img src="/static/images/sponsors/devto.png" alt="#devto" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="https://www.kindnessconnect.com/fstoco/"><img src="/static/images/sponsors/kindnessconnect.png" alt="Kindness Connect" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="http://eventmobi.com/fstoconf15"><img src="/static/images/sponsors/eventmobi.png" alt="Event Mobi" /></a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
   </div>
 </section>
 
 <footer>
   <div class="container">
     <div class="row col-md-12">
-      &copy; 2015 Full Stack Toronto - Canadian Federal Non-Profit #8992240 | <a href="/speak">Submit a Talk</a> | <a href="/press">Press</a> | <a href="/code-of-conduct">Code of Conduct</a>
+      &copy; 2015 Full Stack Toronto - Canadian Federal Non-Profit #8992240 | <a href="/speak">Submit a Talk</a> | <a href="/code-of-conduct">Code of Conduct</a>
     </div>
   </div>
 </footer>
