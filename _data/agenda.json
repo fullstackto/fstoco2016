@@ -92,13 +92,15 @@
       "end_time": "11:00:00",
       "start_time": "10:00:00",
       "date": "2015-11-14",
-      "description": "TBA",
-      "topic": "Keynote",
+      "description": "A detailed explanation of the motivation behind the #iLookLikeAnEngineer movement and actions that WE can take to create change in our environments. Recognize and learn about the importance of exploring our own subconscious biases and the need for corporate empathy to create a more inclusive future.",
+      "topic": "Keynote: Engineering Diversity",
       "id": "614029",
       "section_id": "118605",
       "allow_ask_a_question": true,
       "group_ids": [],
-      "speaker_ids": [],
+      "speaker_ids": [
+        "2797676"
+      ],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
       "localized_short_date": "Sat Nov 14",
@@ -498,26 +500,26 @@
       "display_start_time": " 3:00pm"
     },
     {
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614046",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614049",
       "end_time_t": "1447534800",
       "start_time_t": "1447531200",
       "date_t": "1447477200",
       "display_end_time": " 4:00pm",
-      "external_id": "614046",
+      "external_id": "614049",
       "location": "ENG 106",
       "end_time": "16:00:00",
       "start_time": "15:00:00",
       "date": "2015-11-14",
-      "description": "Traditionally, proponents of dynamic scripting languages have been particularly proud of their mighty one-liners, bragging about how much they can accomplish with but a few keystrokes.\n\nStatically typed languages, on the other hand, have earned quite a reputation as painfully verbose. A meager hello world in Java, for instance, requires no less than 5 lines and 124 characters of code (a little less if you indent with tabs).\n\nIt's been said that Scala is the static language that feels dynamic. With its powerful and expressive syntax, concise yet not terse, a single line of Scala code can leverage an impressive amount of JVM power.\n\nIn this interactive, hands-on session I show you some of the most powerful and elegant Scala one*-liners that give us dynamic productivity in a static language. Ready your REPL, we are going to write some code!\n\n(*for different values of \"one\")",
-      "topic": "Powerful, elegant Scala one*-liners",
-      "id": "614046",
+      "description": "It can be a struggle to translate the details of a design vision into the browser. Creating bitmap images, icons, and graphics can be time consuming and result in inconsistency and difficulty with managing updates. Scalable vector graphics (SVGs) might be just what you're looking for.\n\nSVGs are now supported on every modern browser and mobile device, and usage is on the upswing, but most people only use them for icons. Most developers and designers don’t realize how powerful and useful SVGs are. From scalable images to full-blown web applications, SVGs fit many needs.\n\nIn this session:\n- I will discuss the importance of understanding the capabilities of SVGs and how developers and designers can improve the quality of designs created in the browser. \n- Through an understanding of SVG capabilities you will know how each layer of Illustrator is rendered through SVGs in the browser. \n- You won’t learn about SVG font icons; you WILL learn about how to efficiently export SVGs so your team won’t curse your name. With SVGs you can render each design layer directly in the browser. \n- Apply filters, lighting effects, gaussian blur, and animations, all directly through the use of this file format. Get exactly what you want in the browser.\n- Plus a few of my favorite tips/tricks about SVG elements and attributes.",
+      "topic": "Next-level Animations and Effects with SVG",
+      "id": "614049",
       "section_id": "118605",
       "allow_ask_a_question": true,
       "group_ids": [
-        "165262"
+        "165261"
       ],
       "speaker_ids": [
-        "2680882"
+        "2680892"
       ],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
@@ -656,26 +658,26 @@
       "display_start_time": " 4:15pm"
     },
     {
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614049",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614046",
       "end_time_t": "1447539300",
       "start_time_t": "1447535700",
       "date_t": "1447477200",
       "display_end_time": " 5:15pm",
-      "external_id": "614049",
+      "external_id": "614046",
       "location": "ENG 101",
       "end_time": "17:15:00",
       "start_time": "16:15:00",
       "date": "2015-11-14",
-      "description": "It can be a struggle to translate the details of a design vision into the browser. Creating bitmap images, icons, and graphics can be time consuming and result in inconsistency and difficulty with managing updates. Scalable vector graphics (SVGs) might be just what you're looking for.\n\nSVGs are now supported on every modern browser and mobile device, and usage is on the upswing, but most people only use them for icons. Most developers and designers don’t realize how powerful and useful SVGs are. From scalable images to full-blown web applications, SVGs fit many needs.\n\nIn this session:\n- I will discuss the importance of understanding the capabilities of SVGs and how developers and designers can improve the quality of designs created in the browser. \n- Through an understanding of SVG capabilities you will know how each layer of Illustrator is rendered through SVGs in the browser. \n- You won’t learn about SVG font icons; you WILL learn about how to efficiently export SVGs so your team won’t curse your name. With SVGs you can render each design layer directly in the browser. \n- Apply filters, lighting effects, gaussian blur, and animations, all directly through the use of this file format. Get exactly what you want in the browser.\n- Plus a few of my favorite tips/tricks about SVG elements and attributes.",
-      "topic": "Next-level Animations and Effects with SVG",
-      "id": "614049",
+      "description": "Traditionally, proponents of dynamic scripting languages have been particularly proud of their mighty one-liners, bragging about how much they can accomplish with but a few keystrokes.\n\nStatically typed languages, on the other hand, have earned quite a reputation as painfully verbose. A meager hello world in Java, for instance, requires no less than 5 lines and 124 characters of code (a little less if you indent with tabs).\n\nIt's been said that Scala is the static language that feels dynamic. With its powerful and expressive syntax, concise yet not terse, a single line of Scala code can leverage an impressive amount of JVM power.\n\nIn this interactive, hands-on session I show you some of the most powerful and elegant Scala one*-liners that give us dynamic productivity in a static language. Ready your REPL, we are going to write some code!\n\n(*for different values of \"one\")",
+      "topic": "Powerful, elegant Scala one*-liners",
+      "id": "614046",
       "section_id": "118605",
       "allow_ask_a_question": true,
       "group_ids": [
-        "165261"
+        "165262"
       ],
       "speaker_ids": [
-        "2680892"
+        "2680882"
       ],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
@@ -766,7 +768,7 @@
       "date_t": "1447477200",
       "display_end_time": "11:59pm",
       "external_id": "614055",
-      "location": "TBA",
+      "location": "JOEY Eaton Centre - Lower Level Private Functions Space",
       "end_time": "23:59:00",
       "start_time": "18:30:00",
       "date": "2015-11-14",
@@ -1024,7 +1026,7 @@
       "date_t": "1447563600",
       "display_end_time": "12:15pm",
       "external_id": "614065",
-      "location": "ENG 105",
+      "location": "ENG 106",
       "end_time": "12:15:00",
       "start_time": "11:15:00",
       "date": "2015-11-15",
@@ -1412,17 +1414,17 @@
     },
     {
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614084",
-      "end_time_t": "1447623000",
-      "start_time_t": "1447621800",
+      "end_time_t": "1447626600",
+      "start_time_t": "1447622100",
       "date_t": "1447563600",
-      "display_end_time": " 4:30pm",
+      "display_end_time": " 5:30pm",
       "external_id": "614084",
       "location": "ENG 103",
-      "end_time": "16:30:00",
-      "start_time": "16:10:00",
+      "end_time": "17:30:00",
+      "start_time": "16:15:00",
       "date": "2015-11-15",
-      "description": "Closing remarks",
-      "topic": "Closing Remarks",
+      "description": "TBA",
+      "topic": "Closing Keynote",
       "id": "614084",
       "section_id": "118605",
       "allow_ask_a_question": false,
@@ -1431,7 +1433,7 @@
       "polls": [],
       "localized_date": "Sunday, November 15, 2015",
       "localized_short_date": "Sun Nov 15",
-      "display_start_time": " 4:10pm"
+      "display_start_time": " 4:15pm"
     }
   ]
 }

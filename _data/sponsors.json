@@ -98,7 +98,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "0",
+      "position": "10",
       "booth": "",
       "logo_large_wide": "300x10055cb670598219_devTOLogo.png",
       "logo_small_wide": "300x5055cb670598219_devTOLogo.png",
@@ -123,7 +123,7 @@
       "group_ids": [
         "165268"
       ],
-      "position": "5",
+      "position": "4",
       "booth": "",
       "logo_large_wide": "300x10055ad826347c25_heroku.png",
       "logo_small_wide": "300x5055ad826347c25_heroku.png",
@@ -148,7 +148,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "7",
+      "position": "5",
       "booth": "",
       "logo_large_wide": "300x10055ad8271b3f38_ionic.png",
       "logo_small_wide": "300x5055ad8271b3f38_ionic.png",
@@ -173,7 +173,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "8",
+      "position": "11",
       "booth": "",
       "logo_large_wide": "300x10055ad8280c5088_kindnessconnect.png",
       "logo_small_wide": "300x5055ad8280c5088_kindnessconnect.png",
@@ -223,7 +223,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "9",
+      "position": "7",
       "booth": "",
       "logo_large_wide": "300x10055ad8292f20a4_mindfulsnacks.png",
       "logo_small_wide": "300x5055ad8292f20a4_mindfulsnacks.png",
@@ -248,7 +248,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "10",
+      "position": "12",
       "booth": "",
       "logo_large_wide": "300x10055ad82a232f8f_oreilly.png",
       "logo_small_wide": "300x5055ad82a232f8f_oreilly.png",
@@ -273,7 +273,7 @@
       "group_ids": [
         "165267"
       ],
-      "position": "4",
+      "position": "3",
       "booth": "",
       "logo_large_wide": "300x10055ad82b49edd6_rangleio.png",
       "logo_small_wide": "300x5055ad82b49edd6_rangleio.png",
@@ -298,7 +298,7 @@
       "group_ids": [
         "165269"
       ],
-      "position": "11",
+      "position": "8",
       "booth": "",
       "logo_large_wide": "300x10055ad82d0c04a4_reactjs.png",
       "logo_small_wide": "300x5055ad82d0c04a4_reactjs.png",
@@ -342,13 +342,38 @@
       "sponsorship_level": "0"
     },
     {
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/335182",
+      "custom_fields_values": [],
+      "location": null,
+      "group_ids": [
+        "165269"
+      ],
+      "position": "13",
+      "booth": null,
+      "logo_large_wide": "300x10055cb81bd35522_velocity.png",
+      "logo_small_wide": "300x5055cb81bd35522_velocity.png",
+      "logo_large": "10055cb81bd35522_velocity.png",
+      "logo_small": "5055cb81bd35522_velocity.png",
+      "description": null,
+      "name": "Velocity Conference",
+      "id": "335182",
+      "phone": null,
+      "website": "http://velocityconf.com/devops-web-performance-ny-2015",
+      "email": null,
+      "twitter": null,
+      "facebook": null,
+      "linkedin": null,
+      "external_id": "335182",
+      "sponsorship_level": "0"
+    },
+    {
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/332000",
       "custom_fields_values": [],
       "location": "",
       "group_ids": [
         "165269"
       ],
-      "position": "12",
+      "position": "9",
       "booth": "",
       "logo_large_wide": "300x10055ad82e4b3712_webperf.png",
       "logo_small_wide": "300x5055ad82e4b3712_webperf.png",

@@ -115,12 +115,12 @@
       "facebook": "",
       "id": "2680882",
       "first_name": "Marconi Lanna",
-      "company_name": "",
+      "company_name": "Originate",
       "image50": "50crop_55c238b9e767b_macroni.png",
       "image100": "100crop_55c238b9e767b_macroni.png",
-      "title": "",
+      "title": "Senior Software Innovator",
       "about": "Marconi has been writing software for fun and profit since last century, when the Internet was still black & white and silent. He loves computers, Internet, curly braces, angle brackets, and working with great people.\n\nMarconi is Senior Software Innovator at Originate in Toronto and a speaker at multiple conferences, including Scala Days San Francisco, Scala Days Amsterdam, NE Scala, Lambda Conf, Scala by the Bay, and PNW Scala. He spends most of his free time trying to get his little daughter out of trouble.",
-      "website": ""
+      "website": "https://github.com/marconilanna/"
     },
     {
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/2680883",
@@ -251,11 +251,11 @@
       "facebook": "",
       "id": "2680891",
       "first_name": "Benjamin Greenberg",
-      "company_name": "",
+      "company_name": "Comcast",
       "image50": "50crop_55c235ebdef0f_benjanmin.png",
       "image100": "100crop_55c235ebdef0f_benjanmin.png",
-      "title": "",
-      "about": "Ben is an experienced engineer with a background in full-stack web applications. More recently, he has focused on backend development, particularly hypermedia APIs and high-availability distributed systems.\n\nHe currently works at Comcast where he develops systems that drive the X1 experience across several platforms for millions of customers. He resides in Philadelphia with his wife and too many cats.",
+      "title": "Senior Software Engineer",
+      "about": "Ben is an experienced engineer with a background in full-stack web applications. More recently, he has focused on backend development, particularly hypermedia APIs and high-availability distributed systems.\n\nHe currently works at Comcast where he develops systems that drive the X1 experience across all platforms for millions of customers. He resides in Philadelphia with his wife and too many cats.",
       "website": ""
     },
     {
@@ -518,17 +518,17 @@
       "custom_fields_values": [],
       "position": "0",
       "external_id": "2680907",
-      "linkedin": "",
-      "twitter": "",
+      "linkedin": "http://ca.linkedin.com/in/ramisayar",
+      "twitter": "http://twitter.com/ramisayar",
       "facebook": "",
       "id": "2680907",
       "first_name": "Rami Sayar",
-      "company_name": "",
+      "company_name": "Microsoft Canada",
       "image50": "50crop_55c36bde573ed_rami.png",
       "image100": "100crop_55c36bde573ed_rami.png",
-      "title": "",
+      "title": "Technical Evangelist",
       "about": "Rami Sayar is a technologist passionate about the intersection of art, design and the web. For the past 5 years, he has been experimenting with the bleeding edge of emerging technologies, determined to find use for them in everyday life. In his current role as a Developer Evangelist for Microsoft Canada in Montreal, Rami covers technical areas such as open source technologies, open data, and cloud computing, as well as growth hacking and marketing. He is a frequent international speaker and has spoken at prestigious conferences such as FITC, ConFoo, DroidCon, CUSEC, KWS and TEDx at HEC Montreal. Rami is prevented from sleeping by his curiosity for experimentation, his insistence on shipping high quality code and helping startups survive the grind",
-      "website": ""
+      "website": "http://ramisayar.com"
     },
     {
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/2680908",
@@ -603,12 +603,12 @@
       "custom_fields_values": [],
       "position": "0",
       "external_id": "2704943",
-      "linkedin": "",
+      "linkedin": "https://www.linkedin.com/pub/jonathan-fontanez/28/154/277",
       "twitter": "https://twitter.com/jonfontanez",
       "facebook": "",
       "id": "2704943",
       "first_name": "Jonathan Fontanez",
-      "company_name": "",
+      "company_name": "VCE",
       "image50": "50crop_55c23730ab4a0_jonnathan.png",
       "image100": "100crop_55c23730ab4a0_jonnathan.png",
       "title": "Senior Software Engineer",
@@ -648,6 +648,23 @@
       "title": "CTO",
       "about": "Yuri Takhteyev is the CTO of Rangle.io, a JavaScript consulting firm based out of Toronto, a former faculty member at the university of Toronto, and a published author whose scholarly interests focus on open source and global software culture.",
       "website": "http://yto.io/"
+    },
+    {
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/2797676",
+      "custom_fields_values": [],
+      "position": "0",
+      "external_id": "2797676",
+      "linkedin": "",
+      "twitter": "http://twitter.com/isisanchalee",
+      "facebook": "",
+      "id": "2797676",
+      "first_name": "Isis Anchalee",
+      "company_name": "OneLogin",
+      "image50": "50crop_55df27e802c58_1zfrjh3.jpg",
+      "image100": "100crop_55df27e802c58_1zfrjh3.jpg",
+      "title": "Platform Engineer",
+      "about": "\"Isis is a passionate autodidact and platform engineer at OneLogin, an enterprise identity management company. As founder of the #iLookLikeAnEngineer movement she believes that visual aesthetics do not put a limit on cognitive ability. When she is not writing code or advocating egalitarianism, you can expect her to be traveling the world, practicing yoga or taking hip hop dance classes. With an insatiable appetite for growth, she strives to live every moment consciously and with intention.\n\"",
+      "website": "http://ilooklikeanengineer.com"
     }
   ]
 }
