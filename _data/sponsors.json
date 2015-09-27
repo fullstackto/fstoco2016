@@ -32,7 +32,7 @@
       "linkedin": "",
       "external_id": "331992",
       "sponsorship_level": "0",
-      "position": "6",
+      "position": "9",
       "group_ids": [
         "165269"
       ],
@@ -57,7 +57,7 @@
       "linkedin": "",
       "external_id": "335172",
       "sponsorship_level": "0",
-      "position": "10",
+      "position": "13",
       "group_ids": [
         "165269"
       ],
@@ -82,7 +82,7 @@
       "linkedin": "",
       "external_id": "331993",
       "sponsorship_level": "0",
-      "position": "4",
+      "position": "7",
       "group_ids": [
         "165268"
       ],
@@ -107,7 +107,7 @@
       "linkedin": "",
       "external_id": "331994",
       "sponsorship_level": "0",
-      "position": "5",
+      "position": "8",
       "group_ids": [
         "165269"
       ],
@@ -132,7 +132,7 @@
       "linkedin": "",
       "external_id": "331995",
       "sponsorship_level": "0",
-      "position": "11",
+      "position": "14",
       "group_ids": [
         "165269"
       ],
@@ -157,13 +157,38 @@
       "linkedin": "",
       "external_id": "331991",
       "sponsorship_level": "0",
-      "position": "2",
+      "position": "3",
       "group_ids": [
         "165266"
       ],
       "location": "",
       "custom_fields_values": [],
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331991"
+    },
+    {
+      "id": "341359",
+      "name": "Microsoft Edge",
+      "description": null,
+      "logo_small": "5055e87f023fb7f_edge.png",
+      "logo_large": "10055e87f023fb7f_edge.png",
+      "logo_small_wide": "300x5055e87f023fb7f_edge.png",
+      "logo_large_wide": "300x10055e87f023fb7f_edge.png",
+      "booth": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "twitter": null,
+      "facebook": null,
+      "linkedin": null,
+      "external_id": "341359",
+      "sponsorship_level": "0",
+      "position": "2",
+      "group_ids": [
+        "165265"
+      ],
+      "location": null,
+      "custom_fields_values": [],
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/341359"
     },
     {
       "id": "331996",
@@ -182,7 +207,7 @@
       "linkedin": "",
       "external_id": "331996",
       "sponsorship_level": "0",
-      "position": "7",
+      "position": "10",
       "group_ids": [
         "165269"
       ],
@@ -207,7 +232,7 @@
       "linkedin": "",
       "external_id": "331997",
       "sponsorship_level": "0",
-      "position": "12",
+      "position": "15",
       "group_ids": [
         "165269"
       ],
@@ -232,7 +257,7 @@
       "linkedin": "",
       "external_id": "331998",
       "sponsorship_level": "0",
-      "position": "3",
+      "position": "6",
       "group_ids": [
         "165267"
       ],
@@ -257,13 +282,38 @@
       "linkedin": "",
       "external_id": "331999",
       "sponsorship_level": "0",
-      "position": "8",
+      "position": "11",
       "group_ids": [
         "165269"
       ],
       "location": "",
       "custom_fields_values": [],
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331999"
+    },
+    {
+      "id": "341361",
+      "name": "Syncano",
+      "description": null,
+      "logo_small": "5055e87f466473c_SYNCANO.png",
+      "logo_large": "10055e87f466473c_SYNCANO.png",
+      "logo_small_wide": "300x5055e87f466473c_SYNCANO.png",
+      "logo_large_wide": "300x10055e87f466473c_SYNCANO.png",
+      "booth": null,
+      "phone": null,
+      "website": "https://www.syncano.io/",
+      "email": null,
+      "twitter": null,
+      "facebook": null,
+      "linkedin": null,
+      "external_id": "341361",
+      "sponsorship_level": "0",
+      "position": "5",
+      "group_ids": [
+        "165266"
+      ],
+      "location": null,
+      "custom_fields_values": [],
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/341361"
     },
     {
       "id": "331990",
@@ -291,6 +341,31 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331990"
     },
     {
+      "id": "341360",
+      "name": "Twilio",
+      "description": null,
+      "logo_small": "5055e87f2b41040_twilio.png",
+      "logo_large": "10055e87f2b41040_twilio.png",
+      "logo_small_wide": "300x5055e87f2b41040_twilio.png",
+      "logo_large_wide": "300x10055e87f2b41040_twilio.png",
+      "booth": null,
+      "phone": null,
+      "website": "https://www.twilio.com/",
+      "email": null,
+      "twitter": null,
+      "facebook": null,
+      "linkedin": null,
+      "external_id": "341360",
+      "sponsorship_level": "0",
+      "position": "4",
+      "group_ids": [
+        "165266"
+      ],
+      "location": null,
+      "custom_fields_values": [],
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/341360"
+    },
+    {
       "id": "335182",
       "name": "Velocity Conference",
       "description": null,
@@ -307,7 +382,7 @@
       "linkedin": null,
       "external_id": "335182",
       "sponsorship_level": "0",
-      "position": "13",
+      "position": "16",
       "group_ids": [
         "165269"
       ],
@@ -332,7 +407,7 @@
       "linkedin": "",
       "external_id": "332000",
       "sponsorship_level": "0",
-      "position": "9",
+      "position": "12",
       "group_ids": [
         "165269"
       ],
@@ -386,7 +461,7 @@
     }
   ],
   "config": {
-    "category_view_default": false,
+    "category_view_default": true,
     "exhibitors_categories_name": "Level",
     "custom_fields_enabled": false,
     "hide_regular_fields": false
