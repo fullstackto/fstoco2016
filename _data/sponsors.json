@@ -16,31 +16,6 @@
   "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608",
   "items": [
     {
-      "id": "331992",
-      "name": "#AngularJSTO",
-      "description": "",
-      "logo_small": "5055ad824f62ce9_andjs.jpg",
-      "logo_large": "10055ad824f62ce9_andjs.jpg",
-      "logo_small_wide": "300x5055ad824f62ce9_andjs.jpg",
-      "logo_large_wide": "300x10055ad824f62ce9_andjs.jpg",
-      "booth": "",
-      "phone": "",
-      "website": "http://www.meetup.com/AngularJS-Toronto/",
-      "email": "",
-      "twitter": "",
-      "facebook": "",
-      "linkedin": "",
-      "external_id": "331992",
-      "sponsorship_level": "0",
-      "position": "9",
-      "group_ids": [
-        "165269"
-      ],
-      "location": "",
-      "custom_fields_values": [],
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331992"
-    },
-    {
       "id": "335172",
       "name": "DevTO",
       "description": "",
@@ -266,31 +241,6 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331998"
     },
     {
-      "id": "331999",
-      "name": "ReactJS TO",
-      "description": "",
-      "logo_small": "5055ad82d0c04a4_reactjs.png",
-      "logo_large": "10055ad82d0c04a4_reactjs.png",
-      "logo_small_wide": "300x5055ad82d0c04a4_reactjs.png",
-      "logo_large_wide": "300x10055ad82d0c04a4_reactjs.png",
-      "booth": "",
-      "phone": "",
-      "website": "http://www.meetup.com/ReactJS-Toronto/",
-      "email": "",
-      "twitter": "",
-      "facebook": "",
-      "linkedin": "",
-      "external_id": "331999",
-      "sponsorship_level": "0",
-      "position": "11",
-      "group_ids": [
-        "165269"
-      ],
-      "location": "",
-      "custom_fields_values": [],
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/331999"
-    },
-    {
       "id": "341361",
       "name": "Syncano",
       "description": null,
@@ -389,31 +339,6 @@
       "location": null,
       "custom_fields_values": [],
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/335182"
-    },
-    {
-      "id": "332000",
-      "name": "Web Performance Toronto",
-      "description": "",
-      "logo_small": "5055ad82e4b3712_webperf.png",
-      "logo_large": "10055ad82e4b3712_webperf.png",
-      "logo_small_wide": "300x5055ad82e4b3712_webperf.png",
-      "logo_large_wide": "300x10055ad82e4b3712_webperf.png",
-      "booth": "",
-      "phone": "",
-      "website": "http://www.meetup.com/Toronto-Web-Performance-Group/",
-      "email": "",
-      "twitter": "",
-      "facebook": "",
-      "linkedin": "",
-      "external_id": "332000",
-      "sponsorship_level": "0",
-      "position": "12",
-      "group_ids": [
-        "165269"
-      ],
-      "location": "",
-      "custom_fields_values": [],
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118608/items/332000"
     }
   ],
   "groups": [
