@@ -40,8 +40,8 @@
     },
     {
       "id": "614029",
-      "topic": "Keynote: Engineering Diversity",
-      "description": "A detailed explanation of the motivation behind the #iLookLikeAnEngineer movement and actions that WE can take to create change in our environments. Recognize and learn about the importance of exploring our own subconscious biases and the need for corporate empathy to create a more inclusive future.",
+      "topic": "Keynote",
+      "description": "TBA",
       "date": "2015-11-14",
       "start_time": "10:00:00",
       "end_time": "11:00:00",
@@ -50,9 +50,7 @@
       "section_id": "118605",
       "allow_ask_a_question": true,
       "group_ids": [],
-      "speaker_ids": [
-        "2797676"
-      ],
+      "speaker_ids": [],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
       "localized_short_date": "Sat Nov 14",
@@ -570,7 +568,7 @@
       "location": "ENG 103",
       "external_id": "618378",
       "section_id": "118605",
-      "allow_ask_a_question": false,
+      "allow_ask_a_question": true,
       "group_ids": [
         "165260"
       ],
