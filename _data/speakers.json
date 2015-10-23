@@ -677,6 +677,40 @@
       "position": "0",
       "custom_fields_values": [],
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/2870842"
+    },
+    {
+      "id": "3069764",
+      "first_name": "Steve Pereira",
+      "company_name": "",
+      "image50": "50no-pic.png",
+      "image100": "100no-pic.png",
+      "title": "",
+      "about": "",
+      "website": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "external_id": "3069764",
+      "position": "0",
+      "custom_fields_values": [],
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/3069764"
+    },
+    {
+      "id": "3069931",
+      "first_name": "Nick Matantsev",
+      "company_name": "",
+      "image50": "50no-pic.png",
+      "image100": "100no-pic.png",
+      "title": "",
+      "about": "",
+      "website": "",
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "external_id": "3069931",
+      "position": "0",
+      "custom_fields_values": [],
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118607/items/3069931"
     }
   ],
   "config": {

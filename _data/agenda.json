@@ -21,7 +21,7 @@
       "description": "Opens at 9am",
       "date": "2015-11-14",
       "start_time": "09:00:00",
-      "end_time": "10:00:00",
+      "end_time": "09:45:00",
       "location": "",
       "external_id": "614028",
       "section_id": "118605",
@@ -32,25 +32,79 @@
       "localized_date": "Saturday, November 14, 2015",
       "localized_short_date": "Sat Nov 14",
       "display_start_time": " 9:00am",
-      "display_end_time": "10:00am",
+      "display_end_time": " 9:45am",
       "date_t": "1447477200",
       "start_time_t": "1447509600",
-      "end_time_t": "1447513200",
+      "end_time_t": "1447512300",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614028"
     },
     {
-      "id": "614029",
-      "topic": "Keynote",
-      "description": "TBA",
+      "id": "692914",
+      "topic": "Opening Remarks",
+      "description": "Opening Remarks by Full Stack Toronto and TELUS",
+      "date": "2015-11-14",
+      "start_time": "09:45:00",
+      "end_time": "10:00:00",
+      "location": "ENG 103",
+      "external_id": "692914",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [],
+      "speaker_ids": [],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": " 9:45am",
+      "display_end_time": "10:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447512300",
+      "end_time_t": "1447513200",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/692914"
+    },
+    {
+      "id": "614033",
+      "topic": "Smart First, Phones Later - Taking Responsive a Step Further",
+      "description": "More and more, we think about responsive design beyond just RWD. The future of interactions is being redefined each day with new devices, emerging ecosystems and unplanned user flows.\n\nCould responsive design be perceived as intelligent? Should our daily tools act (and feel) smarter? Is it too much to ask for designers and developers to go that extra mile, and minimize the friction that is often created by poor interactions, integrations and experiences.\n\nNow that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that’s already collected and available. Tin's talk provides case studies of where intelligent design with fewer features has had a great impact.\n\nIn this session you'll expand your definition of responsive beyond RWD, rethink how you design and develop responsive software, see examples of how intelligent design can improve industry-leading applications, see how you can include Smart First approach into your UX and UI processes.",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "10:00:00",
+      "location": "ENG 101",
+      "external_id": "614033",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680879"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "10:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447513200",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614033"
+    },
+    {
+      "id": "693047",
+      "topic": "A DevOps Pipeline",
+      "description": "A guided tour of using Docker and other best-of-breed tools to deliver quality code from developers to production in a fast and scalable process. \n\nWe’ll cover: \n- the state of the ecosystem\n- tools of the trade\n- process overview\n- key automation\n- integrations\n\nAudience: \nNewcomers or seasoned pros looking for a big-picture view of a modern delivery process.\n\nWhat you get: \nStep-by-step guidance on how Docker can fit in your workflow and tools to automate it all.",
       "date": "2015-11-14",
       "start_time": "10:00:00",
       "end_time": "11:00:00",
-      "location": "ENG 103",
-      "external_id": "614029",
+      "location": "Eng 106",
+      "external_id": "693047",
       "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [],
-      "speaker_ids": [],
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "3069764"
+      ],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
       "localized_short_date": "Sat Nov 14",
@@ -59,7 +113,88 @@
       "date_t": "1447477200",
       "start_time_t": "1447513200",
       "end_time_t": "1447516800",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614029"
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/693047"
+    },
+    {
+      "id": "614051",
+      "topic": "No Bars, No Problem: Mobile Applications that work Offline",
+      "description": "What happens when your mobile device does not have a network connection? That device will have no content; no experience and the amazing application that you spent so much effort to build just simply will not work.\n\nThis talk would be around the implementation story of creating offline and online applications on Mobile. \nThe journey begins with NoSQL database modeling and what we can do with a NoSQL technology for mobile. The session will go through how to create data object model relations, design for performance in difficult areas with no signal, and how to develop a local NoSQL datebase that syncs to the cloud.\n\nWe will go over code on how to have your mobile application function offline without relying on the network. You will gain knowledge in NoSQL databases technologies and walk away with insights on how to create offline type of applications that to sync to the cloud.\n\nCouchbase Mobile is a thin client library that would help developers with their mobile projects in creating a local data layer for offline user experience and will provide fast sync capabilities when there is available network connectivity.",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "location": "ENG 105",
+      "external_id": "614051",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165262"
+      ],
+      "speaker_ids": [
+        "2680903"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "11:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447516800",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614051"
+    },
+    {
+      "id": "614073",
+      "topic": "Breaking the Server-Client Divide with Node.js and React | FS",
+      "description": "Rendering Web applications server or client side has been a religious war for years, with server side proponents citing 'speed to glass' and SEO, and client side boasting speed of transitions after the upfront cost, and desktop-like application feel. For a while it was necessary to pick sides, that is until React. In this talk, I will show a stack we are using in IBM Cloud Data Services that uses Node.js and React to bring the best of both worlds in isomorphic apps. Server or client? Yes!",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "location": "ENG 103",
+      "external_id": "614073",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165260"
+      ],
+      "speaker_ids": [
+        "2870842"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "11:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447516800",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614073"
+    },
+    {
+      "id": "614044",
+      "topic": "Always Ship On Time",
+      "description": "Software engineering management expert Dave Todaro walks you step-by-step through agile estimating techniques you can use to understand the size of your project and how long it will take. You and your team will quickly come up with accurate estimates and you’ll be able to forecast completion dates based on how fast the team is moving. You’ll learn how to deal with changes in scope and priority while always being able to tell management “This is when we’ll be done.”",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "23:00:00",
+      "location": "ENG 102",
+      "external_id": "614044",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680894"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "11:00pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447560000",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614044"
     },
     {
       "id": "614030",
@@ -83,33 +218,6 @@
       "start_time_t": "1447516800",
       "end_time_t": "1447517700",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614030"
-    },
-    {
-      "id": "614032",
-      "topic": "Internetting Your Things",
-      "description": "From big consumer success stories, such as the Nest Thermostat, to more offbeat monitoring systems, such as Botanicalls (which lets your plant call you when it is thirsty), your *things* are finding their own voice through small but powerful embedded microcontrollers.\n\nThe market for the Internet of Things (IoT) and wearables is exploding. But as a software developer, what are your options for getting started with making physical things when you’re more used to writing software? Luckily, the world of hardware tinkering has become incredibly accessible and you don’t need an electrical engineering degree to prototype your next IoT project.\n\nYou’ve probably heard of Arduino – an inexpensive and flexible microcontroller taking the maker world by storm – but in this session, I will go through a few hardware options great for hobbyist and rapid prototyping that were built with connectivity in mind.\n\nFind out the various ways you can get your things to talk, including Wi-Fi and Bluetooth.",
-      "date": "2015-11-14",
-      "start_time": "11:15:00",
-      "end_time": "00:15:00",
-      "location": "ENG 102",
-      "external_id": "614032",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165263"
-      ],
-      "speaker_ids": [
-        "2680883"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": "11:15am",
-      "display_end_time": "12:15am",
-      "date_t": "1447477200",
-      "start_time_t": "1447517700",
-      "end_time_t": "1447478100",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614032"
     },
     {
       "id": "614034",
@@ -193,21 +301,21 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614031"
     },
     {
-      "id": "614033",
-      "topic": "Smart First, Phones Later - Taking Responsive a Step Further",
-      "description": "More and more, we think about responsive design beyond just RWD. The future of interactions is being redefined each day with new devices, emerging ecosystems and unplanned user flows.\n\nCould responsive design be perceived as intelligent? Should our daily tools act (and feel) smarter? Is it too much to ask for designers and developers to go that extra mile, and minimize the friction that is often created by poor interactions, integrations and experiences.\n\nNow that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that’s already collected and available. Tin's talk provides case studies of where intelligent design with fewer features has had a great impact.\n\nIn this session you'll expand your definition of responsive beyond RWD, rethink how you design and develop responsive software, see examples of how intelligent design can improve industry-leading applications, see how you can include Smart First approach into your UX and UI processes.",
+      "id": "614032",
+      "topic": "Internetting Your Things",
+      "description": "From big consumer success stories, such as the Nest Thermostat, to more offbeat monitoring systems, such as Botanicalls (which lets your plant call you when it is thirsty), your *things* are finding their own voice through small but powerful embedded microcontrollers.\n\nThe market for the Internet of Things (IoT) and wearables is exploding. But as a software developer, what are your options for getting started with making physical things when you’re more used to writing software? Luckily, the world of hardware tinkering has become incredibly accessible and you don’t need an electrical engineering degree to prototype your next IoT project.\n\nYou’ve probably heard of Arduino – an inexpensive and flexible microcontroller taking the maker world by storm – but in this session, I will go through a few hardware options great for hobbyist and rapid prototyping that were built with connectivity in mind.\n\nFind out the various ways you can get your things to talk, including Wi-Fi and Bluetooth.",
       "date": "2015-11-14",
       "start_time": "11:15:00",
       "end_time": "12:15:00",
       "location": "ENG 105",
-      "external_id": "614033",
+      "external_id": "614032",
       "section_id": "118605",
       "allow_ask_a_question": true,
       "group_ids": [
-        "165261"
+        "165263"
       ],
       "speaker_ids": [
-        "2680879"
+        "2680883"
       ],
       "polls": [],
       "localized_date": "Saturday, November 14, 2015",
@@ -217,7 +325,34 @@
       "date_t": "1447477200",
       "start_time_t": "1447517700",
       "end_time_t": "1447521300",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614033"
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614032"
+    },
+    {
+      "id": "614046",
+      "topic": "Powerful, elegant Scala one*-liners",
+      "description": "Traditionally, proponents of dynamic scripting languages have been particularly proud of their mighty one-liners, bragging about how much they can accomplish with but a few keystrokes.\n\nStatically typed languages, on the other hand, have earned quite a reputation as painfully verbose. A meager hello world in Java, for instance, requires no less than 5 lines and 124 characters of code (a little less if you indent with tabs).\n\nIt's been said that Scala is the static language that feels dynamic. With its powerful and expressive syntax, concise yet not terse, a single line of Scala code can leverage an impressive amount of JVM power.\n\nIn this interactive, hands-on session I show you some of the most powerful and elegant Scala one*-liners that give us dynamic productivity in a static language. Ready your REPL, we are going to write some code!\n\n(*for different values of \"one\")",
+      "date": "2015-11-14",
+      "start_time": "11:15:00",
+      "end_time": "12:15:00",
+      "location": "ENG 102",
+      "external_id": "614046",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165262"
+      ],
+      "speaker_ids": [
+        "2680882"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "11:15am",
+      "display_end_time": "12:15pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447517700",
+      "end_time_t": "1447521300",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614046"
     },
     {
       "id": "614036",
@@ -399,33 +534,6 @@
       "start_time_t": "1447530300",
       "end_time_t": "1447531200",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614042"
-    },
-    {
-      "id": "614044",
-      "topic": "Always Ship On Time",
-      "description": "Software engineering management expert Dave Todaro walks you step-by-step through agile estimating techniques you can use to understand the size of your project and how long it will take. You and your team will quickly come up with accurate estimates and you’ll be able to forecast completion dates based on how fast the team is moving. You’ll learn how to deal with changes in scope and priority while always being able to tell management “This is when we’ll be done.”",
-      "date": "2015-11-14",
-      "start_time": "15:00:00",
-      "end_time": "16:00:00",
-      "location": "ENG 102",
-      "external_id": "614044",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165261"
-      ],
-      "speaker_ids": [
-        "2680894"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": " 3:00pm",
-      "display_end_time": " 4:00pm",
-      "date_t": "1447477200",
-      "start_time_t": "1447531200",
-      "end_time_t": "1447534800",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614044"
     },
     {
       "id": "614045",
@@ -611,60 +719,6 @@
       "start_time_t": "1447535700",
       "end_time_t": "1447539300",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614043"
-    },
-    {
-      "id": "614046",
-      "topic": "Powerful, elegant Scala one*-liners",
-      "description": "Traditionally, proponents of dynamic scripting languages have been particularly proud of their mighty one-liners, bragging about how much they can accomplish with but a few keystrokes.\n\nStatically typed languages, on the other hand, have earned quite a reputation as painfully verbose. A meager hello world in Java, for instance, requires no less than 5 lines and 124 characters of code (a little less if you indent with tabs).\n\nIt's been said that Scala is the static language that feels dynamic. With its powerful and expressive syntax, concise yet not terse, a single line of Scala code can leverage an impressive amount of JVM power.\n\nIn this interactive, hands-on session I show you some of the most powerful and elegant Scala one*-liners that give us dynamic productivity in a static language. Ready your REPL, we are going to write some code!\n\n(*for different values of \"one\")",
-      "date": "2015-11-14",
-      "start_time": "16:15:00",
-      "end_time": "17:15:00",
-      "location": "ENG 101",
-      "external_id": "614046",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165262"
-      ],
-      "speaker_ids": [
-        "2680882"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": " 4:15pm",
-      "display_end_time": " 5:15pm",
-      "date_t": "1447477200",
-      "start_time_t": "1447535700",
-      "end_time_t": "1447539300",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614046"
-    },
-    {
-      "id": "614051",
-      "topic": "No Bars, No Problem: Mobile Applications that work Offline",
-      "description": "What happens when your mobile device does not have a network connection? That device will have no content; no experience and the amazing application that you spent so much effort to build just simply will not work.\n\nThis talk would be around the implementation story of creating offline and online applications on Mobile. \nThe journey begins with NoSQL database modeling and what we can do with a NoSQL technology for mobile. The session will go through how to create data object model relations, design for performance in difficult areas with no signal, and how to develop a local NoSQL datebase that syncs to the cloud.\n\nWe will go over code on how to have your mobile application function offline without relying on the network. You will gain knowledge in NoSQL databases technologies and walk away with insights on how to create offline type of applications that to sync to the cloud.\n\nCouchbase Mobile is a thin client library that would help developers with their mobile projects in creating a local data layer for offline user experience and will provide fast sync capabilities when there is available network connectivity.",
-      "date": "2015-11-14",
-      "start_time": "16:15:00",
-      "end_time": "17:15:00",
-      "location": "ENG 105",
-      "external_id": "614051",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165263"
-      ],
-      "speaker_ids": [
-        "2680903"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": " 4:15pm",
-      "display_end_time": " 5:15pm",
-      "date_t": "1447477200",
-      "start_time_t": "1447535700",
-      "end_time_t": "1447539300",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614051"
     },
     {
       "id": "614052",
@@ -975,6 +1029,33 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614063"
     },
     {
+      "id": "693935",
+      "topic": "BARC Stack: Quick Web Interfaces for Your Node Hacks",
+      "description": "Anyone coding a Node prototype in their spare time knows that it's a pain to add a Web interface on top.\n\nFirst you have to code up the actual app (jQuery or Angular or React or other frameworks), then you have to import Bootstrap or hand-code CSS, then serve it all up, then connect it to the actual prototype server using some sort of an ad-hoc REST interface. All that for a quick-and-simple in-browser screen with a few buttons and some text.\n\nEven using Yeoman or prebuilt seed projects is annoying - because the core frontend frameworks are geared towards production and stability, not fast iteration of prototyping work. And dropping down to basic jQuery loses a lot of the productivity gains of richer toolsets.\n\nBARC (a tongue-in-cheek term!) is a set of simple NPM modules that streamline all that drudgery. Skip boilerplate CSS cruft with Boxbits, use Atomic Routes for easy back-button support, and Remote Control to bypass fiddling with Express POST routes and just call your server JS functions from the browser. UI rendering is driven by vdom-live - a tiny module that leverages virtual DOM to rapidly set up reactive frontend code.\n\nThis is a radical departure from the typical legacy Web stack, but it is geared towards maximum prototyping speed without worrying about stylesheets, AJAX or manually updating view widgets. Don't try this in production (yet)!",
+      "date": "2015-11-15",
+      "start_time": "11:15:00",
+      "end_time": "12:15:00",
+      "location": "ENG 103",
+      "external_id": "693935",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165260"
+      ],
+      "speaker_ids": [
+        "3069931"
+      ],
+      "polls": [],
+      "localized_date": "Sunday, November 15, 2015",
+      "localized_short_date": "Sun Nov 15",
+      "display_start_time": "11:15am",
+      "display_end_time": "12:15pm",
+      "date_t": "1447563600",
+      "start_time_t": "1447604100",
+      "end_time_t": "1447607700",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/693935"
+    },
+    {
       "id": "614064",
       "topic": "Re-evaluating Front-end Performance Best Practices",
       "description": "High Performance Websites, by Steve Souders, was first released in 2007. The follow-up – Even Faster Web Sites – was published in 2009. These books have served as web optimization canon for a generation of web developers.\n\nThe problem is: it’s now 2015. Browsers, browser features, internet connectivity – they’ve all changed dramatically. A lot of the best practices from 2007 and 2009 no longer apply. And yet, many developers are still holding on to those practices – advocating for performance tweaks that are no longer relevant.\n\nIn this talk, I want to revisit many of these best practices. Some of them will focus on networking (e.g. # of HTTP requests), some on pure JavaScript, and some even on CSS. Basically: the whole web platform.\n\nI’ll use a mix of real world applications, developer tool walkthroughs, JSPerf benchmarks, etc. to demonstrate my points.",
@@ -1027,33 +1108,6 @@
       "start_time_t": "1447604100",
       "end_time_t": "1447607700",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614065"
-    },
-    {
-      "id": "614073",
-      "topic": "Breaking the Server-Client Divide with Node.js and React | FS",
-      "description": "Rendering Web applications server or client side has been a religious war for years, with server side proponents citing 'speed to glass' and SEO, and client side boasting speed of transitions after the upfront cost, and desktop-like application feel. For a while it was necessary to pick sides, that is until React. In this talk, I will show a stack we are using in IBM Cloud Data Services that uses Node.js and React to bring the best of both worlds in isomorphic apps. Server or client? Yes!",
-      "date": "2015-11-15",
-      "start_time": "11:15:00",
-      "end_time": "12:15:00",
-      "location": "ENG 103",
-      "external_id": "614073",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165260"
-      ],
-      "speaker_ids": [
-        "2870842"
-      ],
-      "polls": [],
-      "localized_date": "Sunday, November 15, 2015",
-      "localized_short_date": "Sun Nov 15",
-      "display_start_time": "11:15am",
-      "display_end_time": "12:15pm",
-      "date_t": "1447563600",
-      "start_time_t": "1447604100",
-      "end_time_t": "1447607700",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614073"
     },
     {
       "id": "614068",
