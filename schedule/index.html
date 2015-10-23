@@ -30,10 +30,6 @@ layout: default
 </section>
 <script>
 "use strict"
-if (window.location.protocol != "http:") {
-   window.location.protocol = "http:";
-   window.location.reload();
-}
 $(function(){
   var getSessions = function(){
     $.ajax("http://lanyrd.com/2015/fstoconf/schedule/110c8d3d435de071.v1.json", {
