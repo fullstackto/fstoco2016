@@ -62,33 +62,6 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/692914"
     },
     {
-      "id": "614033",
-      "topic": "Smart First, Phones Later - Taking Responsive a Step Further",
-      "description": "More and more, we think about responsive design beyond just RWD. The future of interactions is being redefined each day with new devices, emerging ecosystems and unplanned user flows.\n\nCould responsive design be perceived as intelligent? Should our daily tools act (and feel) smarter? Is it too much to ask for designers and developers to go that extra mile, and minimize the friction that is often created by poor interactions, integrations and experiences.\n\nNow that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that’s already collected and available. Tin's talk provides case studies of where intelligent design with fewer features has had a great impact.\n\nIn this session you'll expand your definition of responsive beyond RWD, rethink how you design and develop responsive software, see examples of how intelligent design can improve industry-leading applications, see how you can include Smart First approach into your UX and UI processes.",
-      "date": "2015-11-14",
-      "start_time": "10:00:00",
-      "end_time": "10:00:00",
-      "location": "ENG 101",
-      "external_id": "614033",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165261"
-      ],
-      "speaker_ids": [
-        "2680879"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": "10:00am",
-      "display_end_time": "10:00am",
-      "date_t": "1447477200",
-      "start_time_t": "1447513200",
-      "end_time_t": "1447513200",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614033"
-    },
-    {
       "id": "693047",
       "topic": "A DevOps Pipeline",
       "description": "A guided tour of using Docker and other best-of-breed tools to deliver quality code from developers to production in a fast and scalable process. \n\nWe’ll cover: \n- the state of the ecosystem\n- tools of the trade\n- process overview\n- key automation\n- integrations\n\nAudience: \nNewcomers or seasoned pros looking for a big-picture view of a modern delivery process.\n\nWhat you get: \nStep-by-step guidance on how Docker can fit in your workflow and tools to automate it all.",
@@ -114,6 +87,60 @@
       "start_time_t": "1447513200",
       "end_time_t": "1447516800",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/693047"
+    },
+    {
+      "id": "614033",
+      "topic": "Smart First, Phones Later - Taking Responsive a Step Further",
+      "description": "More and more, we think about responsive design beyond just RWD. The future of interactions is being redefined each day with new devices, emerging ecosystems and unplanned user flows.\n\nCould responsive design be perceived as intelligent? Should our daily tools act (and feel) smarter? Is it too much to ask for designers and developers to go that extra mile, and minimize the friction that is often created by poor interactions, integrations and experiences.\n\nNow that we are designing with screen sizes and aspect ratios in mind, we should go a step further and plan strategically to utilize the device data that’s already collected and available. Tin's talk provides case studies of where intelligent design with fewer features has had a great impact.\n\nIn this session you'll expand your definition of responsive beyond RWD, rethink how you design and develop responsive software, see examples of how intelligent design can improve industry-leading applications, see how you can include Smart First approach into your UX and UI processes.",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "location": "ENG 101",
+      "external_id": "614033",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680879"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "11:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447516800",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614033"
+    },
+    {
+      "id": "614044",
+      "topic": "Always Ship On Time",
+      "description": "Software engineering management expert Dave Todaro walks you step-by-step through agile estimating techniques you can use to understand the size of your project and how long it will take. You and your team will quickly come up with accurate estimates and you’ll be able to forecast completion dates based on how fast the team is moving. You’ll learn how to deal with changes in scope and priority while always being able to tell management “This is when we’ll be done.”",
+      "date": "2015-11-14",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "location": "ENG 102",
+      "external_id": "614044",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680894"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "10:00am",
+      "display_end_time": "11:00am",
+      "date_t": "1447477200",
+      "start_time_t": "1447513200",
+      "end_time_t": "1447516800",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614044"
     },
     {
       "id": "614051",
@@ -170,33 +197,6 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614073"
     },
     {
-      "id": "614044",
-      "topic": "Always Ship On Time",
-      "description": "Software engineering management expert Dave Todaro walks you step-by-step through agile estimating techniques you can use to understand the size of your project and how long it will take. You and your team will quickly come up with accurate estimates and you’ll be able to forecast completion dates based on how fast the team is moving. You’ll learn how to deal with changes in scope and priority while always being able to tell management “This is when we’ll be done.”",
-      "date": "2015-11-14",
-      "start_time": "10:00:00",
-      "end_time": "23:00:00",
-      "location": "ENG 102",
-      "external_id": "614044",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165261"
-      ],
-      "speaker_ids": [
-        "2680894"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": "10:00am",
-      "display_end_time": "11:00pm",
-      "date_t": "1447477200",
-      "start_time_t": "1447513200",
-      "end_time_t": "1447560000",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614044"
-    },
-    {
       "id": "614030",
       "topic": "Networking Break",
       "description": "Hallways",
@@ -218,60 +218,6 @@
       "start_time_t": "1447516800",
       "end_time_t": "1447517700",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614030"
-    },
-    {
-      "id": "614034",
-      "topic": "Work-Life Balance For Passionate Developers",
-      "description": "‘Work-life balance’ is touted in job postings everywhere - but what does it really mean? If you’re a passionate developer that’s excited about the technology you work with every day, you probably spend a fair bit of time outside of the office doing something that looks a lot like what you do at work. Even if you’re excited about your work, it’s important to find ways to rest, recharge and disconnect periodically. After spending 7 years building a team of passionate developers, I’ve learned that everyone approaches work-life balance differently, with vastly different results.",
-      "date": "2015-11-14",
-      "start_time": "11:15:00",
-      "end_time": "00:15:00",
-      "location": "ENG 106",
-      "external_id": "614034",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165261"
-      ],
-      "speaker_ids": [
-        "2680899"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": "11:15am",
-      "display_end_time": "12:15am",
-      "date_t": "1447477200",
-      "start_time_t": "1447517700",
-      "end_time_t": "1447478100",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614034"
-    },
-    {
-      "id": "614035",
-      "topic": "Evolving High Availability at Braintree",
-      "description": "Braintree is a payment gateway, so any downtime on our API makes both us and our customers lose money. We therefore focus a lot of time and energy on keeping our gateway, a Ruby on Rails application, as healthy as possible.\n\nIn this talk, I'll give equal importance to examining our high availability stack and showing how it has evolved as our systems and traffic have evolved. Specifically, I'll discuss:\n\nHow we wrote, ran, and ultimately moved away from a totally custom web server, the Braintree proxy or \"\"Broxy\"\".\nOur techniques for safely performing schema changes and long-running data migrations on our Postgres clusters.\nHow we keep our applications healthy and responsive in a service-oriented architecture.\nThroughout the talk, I'll pay particular attention to showcasing mistakes we made and thinks that didn't go as planned. By the end of the talk, you'll have a thorough understanding of the architecture of a highly available Rails stack.",
-      "date": "2015-11-14",
-      "start_time": "11:15:00",
-      "end_time": "00:15:00",
-      "location": "ENG 103",
-      "external_id": "614035",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165260"
-      ],
-      "speaker_ids": [
-        "2680888"
-      ],
-      "polls": [],
-      "localized_date": "Saturday, November 14, 2015",
-      "localized_short_date": "Sat Nov 14",
-      "display_start_time": "11:15am",
-      "display_end_time": "12:15am",
-      "date_t": "1447477200",
-      "start_time_t": "1447517700",
-      "end_time_t": "1447478100",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614035"
     },
     {
       "id": "614031",
@@ -326,6 +272,60 @@
       "start_time_t": "1447517700",
       "end_time_t": "1447521300",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614032"
+    },
+    {
+      "id": "614034",
+      "topic": "Work-Life Balance For Passionate Developers",
+      "description": "‘Work-life balance’ is touted in job postings everywhere - but what does it really mean? If you’re a passionate developer that’s excited about the technology you work with every day, you probably spend a fair bit of time outside of the office doing something that looks a lot like what you do at work. Even if you’re excited about your work, it’s important to find ways to rest, recharge and disconnect periodically. After spending 7 years building a team of passionate developers, I’ve learned that everyone approaches work-life balance differently, with vastly different results.",
+      "date": "2015-11-14",
+      "start_time": "11:15:00",
+      "end_time": "12:15:00",
+      "location": "ENG 106",
+      "external_id": "614034",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680899"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "11:15am",
+      "display_end_time": "12:15pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447517700",
+      "end_time_t": "1447521300",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614034"
+    },
+    {
+      "id": "614035",
+      "topic": "Evolving High Availability at Braintree",
+      "description": "Braintree is a payment gateway, so any downtime on our API makes both us and our customers lose money. We therefore focus a lot of time and energy on keeping our gateway, a Ruby on Rails application, as healthy as possible.\n\nIn this talk, I'll give equal importance to examining our high availability stack and showing how it has evolved as our systems and traffic have evolved. Specifically, I'll discuss:\n\nHow we wrote, ran, and ultimately moved away from a totally custom web server, the Braintree proxy or \"\"Broxy\"\".\nOur techniques for safely performing schema changes and long-running data migrations on our Postgres clusters.\nHow we keep our applications healthy and responsive in a service-oriented architecture.\nThroughout the talk, I'll pay particular attention to showcasing mistakes we made and thinks that didn't go as planned. By the end of the talk, you'll have a thorough understanding of the architecture of a highly available Rails stack.",
+      "date": "2015-11-14",
+      "start_time": "11:15:00",
+      "end_time": "12:15:00",
+      "location": "ENG 103",
+      "external_id": "614035",
+      "section_id": "118605",
+      "allow_ask_a_question": true,
+      "group_ids": [
+        "165260"
+      ],
+      "speaker_ids": [
+        "2680888"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": "11:15am",
+      "display_end_time": "12:15pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447517700",
+      "end_time_t": "1447521300",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614035"
     },
     {
       "id": "614046",
@@ -536,6 +536,33 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614042"
     },
     {
+      "id": "694363",
+      "topic": "Stop Building The Backend!",
+      "description": "Building applications should be fun, and focused on solving real problems. Unfortunately, as a front-end developer, we rely on someone to develop the backend pieces, or struggling through them ourselves.\n\nInnovation and speed are often sacrificed at the hand of backend development, however as an industry we are moving towards a revolution where the frontend developer rules, and backends become admin tasks.\n\nMany solutions such as BaaS or JS app platforms, approach developing websites with a serverless, frontend first persepective, and offload many backend tasks.  It's time to stop building the backend, and make building apps fun again!\"\"",
+      "date": "2015-11-14",
+      "start_time": "15:00:00",
+      "end_time": "16:00:00",
+      "location": "ENG 102",
+      "external_id": "694363",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "3072283"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": " 3:00pm",
+      "display_end_time": " 4:00pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447531200",
+      "end_time_t": "1447534800",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/694363"
+    },
+    {
       "id": "614045",
       "topic": "Rails, Postgres, Angular, and Bootstrap: The Power Stack",
       "description": "Ruby on Rails is a great application layer, with tons of support and an amazing community. Postgres is a high-performing and amazingly powerful open-source database that can do pretty much anything. AngularJS is the most popular framework for making highly dynamic user interfaces. And Twitter Bootstrap enables anyone to make it look good.\n\nThis talk will show you two things: why each of these tools should be in your toolbox, and how to use them together to make amazing applications. This is the true “full stack” and it packs quite a wallop. If you want to ship valuable, quality, high-performing software quickly, you need the power stack.",
@@ -667,6 +694,33 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614048"
     },
     {
+      "id": "694364",
+      "topic": "What is The Open Development Methodology",
+      "description": "While Scrum, Agile and other methodologies may have made more sense in the early ‘90s, much has changed in the years since. Startups and businesses with workforces spread over many countries and time zones can no longer co-locate their employees as they were once expected to be able to. As our world continues to evolve, our businesses too are finding themselves in a position where they need to evolve too. To that effect, perhaps our software development methods should be reconsidered and rebuilt for this new world.\n\nOpen source in 2015 is ubiquitous. Potentially every person in the free world benefiting from modern technology is also benefiting from open source in some fashion. When you consider the potential sea of diversity developing for the world’s most popular open source projects, you can’t help but wonder how they’ve been able to succeed without the benefit of managers, meetings, and code sprints.\n\nUpon researching how these types of projects have succeeded, I’ve been able to determine that these projects share a set of principles which could be considered the tenets of the Open Development Method.",
+      "date": "2015-11-14",
+      "start_time": "16:15:00",
+      "end_time": "17:15:00",
+      "location": "ENG 105",
+      "external_id": "694364",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165261"
+      ],
+      "speaker_ids": [
+        "2680876"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": " 4:15pm",
+      "display_end_time": " 5:15pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447535700",
+      "end_time_t": "1447539300",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/694364"
+    },
+    {
       "id": "618378",
       "topic": "Building modular enterprise AngularJS applications",
       "description": "AngularJS enables developers to rapidly build single page applications. However, the framework leaves many decisions to development teams including structuring content, script loading, and asset management. When building large scale applications for businesses and enterprises this can quickly become challenging to maintain, test, iterate, and extend.\n\nThe talk will focus on best practices and strategies for structuring large AngularJS applications, maintainable code styling for modular code, and finally introduce tools and strategies for teams to effectively build, package, deliver, and deploy in an enterprise environment.",
@@ -692,6 +746,33 @@
       "start_time_t": "1447535700",
       "end_time_t": "1447539300",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/618378"
+    },
+    {
+      "id": "697748",
+      "topic": "WebAR: Augmented Reality for Web in Open Source",
+      "description": "\"Augmented Reality is everywhere. It is a hot and powerful topic. Everyone is doing it: Facebook with Occulus Rift, Microsoft with Hololens, Google with google glass or DAQRI with the Smart Helmet.\n\nWe wanted to experiment with Augmented Reality on the web as well. That's how WebAR was born, an open source project which does Augmented Reality using web standards. We were wondering how far we could push the technology...the good news is that we can go pretty far! \n\nFirst, we succeeded on making AR run in a browser. We were already quite happy with this, but then we went for the moon and wanted to run that on mobile phones too. And it turns out it actually works! Imagine that: Being able to provide free AR for everybody to use in their everyday life with their mobile devices!  \n\nWebAR shows us how to get Augmented Reality using only web technologies. It is an open source threex extension for three.js. It captures the video with webrtc, localizes the AR markers using artoolkit,\nand displays the 3d on top of your reality with three.js.\n\nI will tell you everything you need to know to write your own Augmented Reality application! Trust me, it's gonna be fun! \"",
+      "date": "2015-11-14",
+      "start_time": "16:15:00",
+      "end_time": "17:15:00",
+      "location": "ENG 101",
+      "external_id": "697748",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165263"
+      ],
+      "speaker_ids": [
+        "3088768"
+      ],
+      "polls": [],
+      "localized_date": "Saturday, November 14, 2015",
+      "localized_short_date": "Sat Nov 14",
+      "display_start_time": " 4:15pm",
+      "display_end_time": " 5:15pm",
+      "date_t": "1447477200",
+      "start_time_t": "1447535700",
+      "end_time_t": "1447539300",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/697748"
     },
     {
       "id": "614043",
@@ -1291,33 +1372,6 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614078"
     },
     {
-      "id": "614049",
-      "topic": "Next-level Animations and Effects with SVG",
-      "description": "It can be a struggle to translate the details of a design vision into the browser. Creating bitmap images, icons, and graphics can be time consuming and result in inconsistency and difficulty with managing updates. Scalable vector graphics (SVGs) might be just what you're looking for.\n\nSVGs are now supported on every modern browser and mobile device, and usage is on the upswing, but most people only use them for icons. Most developers and designers don’t realize how powerful and useful SVGs are. From scalable images to full-blown web applications, SVGs fit many needs.\n\nIn this session:\n- I will discuss the importance of understanding the capabilities of SVGs and how developers and designers can improve the quality of designs created in the browser. \n- Through an understanding of SVG capabilities you will know how each layer of Illustrator is rendered through SVGs in the browser. \n- You won’t learn about SVG font icons; you WILL learn about how to efficiently export SVGs so your team won’t curse your name. With SVGs you can render each design layer directly in the browser. \n- Apply filters, lighting effects, gaussian blur, and animations, all directly through the use of this file format. Get exactly what you want in the browser.\n- Plus a few of my favorite tips/tricks about SVG elements and attributes.",
-      "date": "2015-11-15",
-      "start_time": "15:00:00",
-      "end_time": "16:00:00",
-      "location": "ENG 102",
-      "external_id": "614049",
-      "section_id": "118605",
-      "allow_ask_a_question": true,
-      "group_ids": [
-        "165261"
-      ],
-      "speaker_ids": [
-        "2680892"
-      ],
-      "polls": [],
-      "localized_date": "Sunday, November 15, 2015",
-      "localized_short_date": "Sun Nov 15",
-      "display_start_time": " 3:00pm",
-      "display_end_time": " 4:00pm",
-      "date_t": "1447563600",
-      "start_time_t": "1447617600",
-      "end_time_t": "1447621200",
-      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614049"
-    },
-    {
       "id": "614079",
       "topic": "Test Driven Infrastructure",
       "description": "Test Driven Development is a popular concept in Software Development, leading to higher quality code that's easier to maintain. Automated testing is normally a foreign concept in the Operations world, but as you ssh into your servers to make that quick fix or run your updated script (fingers crossed), you might be wondering if there's a better way. A way that gives you the confidence in your script and lets you test those scripts in isolation. Well I have good news for you, there is a better way! Test Driven Infrastructure (TDI) is now possible. I know, it sounds crazy.\n\nAt this session you'll learn the how, and more importantly the why, of TDI. You'll see how Chef (or any other Config Management framework) can be tested with Test Kitchen and ServerSpec. You'll also learn how to improve your feedback cycle with Docker, and using the Docker approach on a CI server. There may even be some live demos!\n\nFinally, the Ops world collides with the Dev world in true DevOps testing bliss.",
@@ -1426,12 +1480,39 @@
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614083"
     },
     {
+      "id": "695790",
+      "topic": "Reduce complexity with Functional JS",
+      "description": "\"The art of programming is the art of organizing complexity, of mastering multitude and avoiding its chaos as effectively as possible” - Edsger Dijkstra. Functional programming is a programming paradigm—a style of building the structure and elements of an application. Languages such as Scala, Swift, and Haskell are great examples of functional languages. Multi-dimensional languages such as JavaScript have the capabilities to solve complex problems with the power of abstraction. Functional JavaScript provides you with the tools to better organize, debug, and test your code. It allows these things by constructing operations into reusable and composable building blocks. We will show you tips on how to reduce complexity in your application by employing functional practices such as monads, currying, high-order functions, map, reduce, and filter.",
+      "date": "2015-11-15",
+      "start_time": "15:00:00",
+      "end_time": "16:00:00",
+      "location": "ENG 102",
+      "external_id": "695790",
+      "section_id": "118605",
+      "allow_ask_a_question": false,
+      "group_ids": [
+        "165262"
+      ],
+      "speaker_ids": [
+        "3080803"
+      ],
+      "polls": [],
+      "localized_date": "Sunday, November 15, 2015",
+      "localized_short_date": "Sun Nov 15",
+      "display_start_time": " 3:00pm",
+      "display_end_time": " 4:00pm",
+      "date_t": "1447563600",
+      "start_time_t": "1447617600",
+      "end_time_t": "1447621200",
+      "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/695790"
+    },
+    {
       "id": "614084",
-      "topic": "Closing Keynote",
-      "description": "TBA",
+      "topic": "Closing Remarks",
+      "description": "Closing remarks and more about next year!",
       "date": "2015-11-15",
       "start_time": "16:15:00",
-      "end_time": "17:30:00",
+      "end_time": "16:30:00",
       "location": "ENG 103",
       "external_id": "614084",
       "section_id": "118605",
@@ -1442,10 +1523,10 @@
       "localized_date": "Sunday, November 15, 2015",
       "localized_short_date": "Sun Nov 15",
       "display_start_time": " 4:15pm",
-      "display_end_time": " 5:30pm",
+      "display_end_time": " 4:30pm",
       "date_t": "1447563600",
       "start_time_t": "1447622100",
-      "end_time_t": "1447626600",
+      "end_time_t": "1447623000",
       "url": "http://api.eventmobi.com/en/api/v1/events/FSTOCONF15/sections/118605/items/614084"
     }
   ],
