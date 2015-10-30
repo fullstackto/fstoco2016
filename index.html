@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Home
 ---
 
-<section id="masthead" class="red-poly">
+<section id="masthead" class="multi-poly">
   <div class="container">
     <div class="row">
       <h1>#fstoconf15</h1>
@@ -68,21 +69,3 @@ layout: default
     </div>
   </div>
 </section>
-<script>
-  $(function(){
-    var quotes = $('.quote')
-    var count = 0
-
-    setInterval(function () {
-      $(quotes[count]).fadeOut(500)
-
-      if (count == quotes.length-1) {
-        count = 0
-      } else {
-        count ++
-      }
-
-      $(quotes[count]).delay(500).fadeIn(500)
-    }, 8000)
-  })
-</script>

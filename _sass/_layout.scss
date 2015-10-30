@@ -127,6 +127,19 @@ h3, h4, h5 {
   font-family: "Courier New", Courier, monospace;
 }
 
+.multi-poly {
+  background: url(/static/images/multi-bg.jpg);
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #933a55;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  @media only screen 
+  and (min-device-width : 414px) 
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
+}
 .red-poly {
   background: url(/static/images/red-bg.jpg);
   background-size: cover;
