@@ -6,16 +6,38 @@
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+        *, html {
+          margin: 0;
+          padding: 0;
+        }
+        body{ 
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 1920px;
+          height: 1080px;
+        }
+        .left-frame{
+          width: 1220px;
+          float: left;
+        }
+        .right-frame{
+          width: 700px;
+          float: right;
+        }
+        </style>
     </head>
     <body>
-      <div class="tv">
         <div class="left-frame">
-          1220x1080px
+          <!-- BEGIN TWEETWALL EMBED -->
+<div class="tweetwall"><script src="//fstoconf15.tweetwall.com/js/embed.js?header=false&layout=1&bgcolor=%23efefef&border=false&width=1220px&height=1080px" class="tweetwall-script" async></script><noscript><a href="http://fstoconf15.tweetwall.com/" target="_blank">View the Tweetwall</a></noscript><div style="position:absolute; z-index:1000; text-indent: -9999px;"><a href="http://tweetwall.com/twitter-widget">Moderated Twitter Widget</a> by Tweetwall</div></div>
+<!-- END TWEETWALL EMBED -->
+
         </div>
         <div class="right-frame">
           <img src="/static/images/tv-map.jpg" width="700" height="1080" />
         </div>
-      </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
     </body>
