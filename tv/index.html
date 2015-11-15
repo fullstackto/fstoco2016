@@ -101,14 +101,14 @@ $(function(){
       if(satSessions[i].speakers.length > 0){
         speaker = satSessions[i].speakers[0].name
       }
-      $(".saturday .sessions-holder").append('<div class="session-card '+satSessions[i].title.split(" | ")[1]+'" data-time="'+satSessions[i].start_time+'"">'
+      /*$(".saturday .sessions-holder").append('<div class="session-card '+satSessions[i].title.split(" | ")[1]+'" data-time="'+satSessions[i].start_time+'"">'
         + '<span class="title">'+satSessions[i].title.split(" | ")[0]+'</span>'
         + '<span class="room">'+satSessions[i].space+'</span>'
         + '<span class="time">'+satSessions[i].times+'</span>'
         + '<span class="speaker">'+speaker+'</span>'
       + '</div>');
-    });
-    /*$.each(sunSessions, function(i){
+    });*/
+    $.each(sunSessions, function(i){
       var speaker = "";
       if(sunSessions[i].speakers.length > 0){
         speaker = sunSessions[i].speakers[0].name
@@ -123,7 +123,7 @@ $(function(){
     $(".session-card").on("click", function(e){
       $(e.currentTarget).find("span.abstract").toggle();
       $(e.currentTarget).toggleClass("open");
-    }); */
+    });
   };
   getSessions();
 });
