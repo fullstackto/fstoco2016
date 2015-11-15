@@ -96,12 +96,12 @@ $(function(){
     var sun = data.sessions[1];
     var satSessions = sat.sessions;
     var sunSessions = sun.sessions;
-    $.each(satSessions, function(i){
+    /*$.each(satSessions, function(i){
       var speaker = "";
       if(satSessions[i].speakers.length > 0){
         speaker = satSessions[i].speakers[0].name
       }
-      /*$(".saturday .sessions-holder").append('<div class="session-card '+satSessions[i].title.split(" | ")[1]+'" data-time="'+satSessions[i].start_time+'"">'
+      $(".saturday .sessions-holder").append('<div class="session-card '+satSessions[i].title.split(" | ")[1]+'" data-time="'+satSessions[i].start_time+'"">'
         + '<span class="title">'+satSessions[i].title.split(" | ")[0]+'</span>'
         + '<span class="room">'+satSessions[i].space+'</span>'
         + '<span class="time">'+satSessions[i].times+'</span>'
@@ -113,16 +113,12 @@ $(function(){
       if(sunSessions[i].speakers.length > 0){
         speaker = sunSessions[i].speakers[0].name
       }
-      $(".sunday .sessions-holder").append('<div class="session-card '+sunSessions[i].title.split(" | ")[1]+'">'
+      $(".sessions-holder").append('<div class="session-card '+sunSessions[i].title.split(" | ")[1]+'">'
         + '<span class="title">'+sunSessions[i].title.split(" | ")[0]+'</span>'
         + '<span class="room">'+sunSessions[i].space+'</span>'
         + '<span class="time">'+sunSessions[i].times+'</span>'
         + '<span class="speaker">'+speaker+'</span>'
       + '</div>');
-    });
-    $(".session-card").on("click", function(e){
-      $(e.currentTarget).find("span.abstract").toggle();
-      $(e.currentTarget).toggleClass("open");
     });
   };
   getSessions();
