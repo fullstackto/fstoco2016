@@ -1,1 +1,230 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css")
+
+$purple: #a24dce;
+$red: #c84267;
+$orange: #d0804d;
+$green: #78bc4e;
+$blue: #3489c4;
+$theme-primary: #933a55;
+$theme-dark: #933a55;   
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 13px;
+}
+
+hr {
+    border-color: $theme-primary;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: white;
+}
+
+a {
+    @include transition-all;
+    color: $theme-primary;
+    &:hover,
+    &:focus {
+        color: darken($theme-primary, 10%);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include sans-serif-font;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    background-color: $theme-primary;
+}
+
+.bg-dark {
+    background-color: $theme-dark;
+    color: white;
+}
+.multi-poly {
+  background: url(/static/images/multi-bg.jpg);
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #933a55;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+  @media only screen 
+  and (min-device-width : 414px) 
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
+}
+.red-poly {
+  background: url(/static/images/red-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #c84267;
+  color: #fff;
+}
+
+.green-poly {
+  background: url(/static/images/green-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #78bc4e;
+  color: #fff;
+}
+
+.blue-poly {
+  background: url(/static/images/blue-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #3489c4;
+  color: #fff;
+}
+
+.purple-poly {
+  background: url(/static/images/purple-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #a24dce;
+  color: #fff;
+}
+
+.text-faded {
+    color: rgba(white, .7);
+}
+
+section {
+    padding: 25px;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+// Navigation
+
+.navbar-default {
+    background-color: white;
+    color: #000;
+    .navbar-header {
+        height: 115px;
+        .navbar-brand {
+            height: auto;
+            img {
+                width: 85px;
+            }
+        }
+    }
+    .nav {
+        margin-top: 30px;
+        > li {
+            > a,
+            > a:focus {
+                color: #000;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            > a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+//  Header
+header.big {
+    height: 450px;
+    padding-top: 125px;
+    text-align: center;
+}
+
+// Sections
+
+.section-heading {
+    margin-top: 0;
+}
+
+
+
+// Bootstrap Overrides
+.text-primary {
+    color: $theme-primary;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+// Button Styles
+.btn-default {
+    @include button-variant($theme-dark, white, white);
+}
+
+.btn-primary {
+    @include button-variant(white, $theme-primary, $theme-primary);
+}
+
+.btn {
+    @include sans-serif-font;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: $theme-dark;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: $theme-dark;
+}
+
+img::selection {
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: white;
+    background: transparent;
+}
+
+body {
+    -webkit-tap-highlight-color: $theme-dark;
+}
+

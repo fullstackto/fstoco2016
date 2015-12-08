@@ -1,0 +1,396 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css");
+body {
+  background: #fff; }
+
+#page {
+  position: absolute;
+  width: 100%; }
+  @media (min-width: 992px) {
+    #page {
+      position: relative; } }
+  #page.open {
+    right: 220px;
+    box-shadow: 2px 0 5px #999; }
+
+#logo {
+  width: 80px; }
+  #logo img {
+    width: 100%; }
+
+#presented {
+  width: 160px;
+  float: left; }
+  #presented h2 {
+    font-family: "web_homestead", Impact, Charcoal, sans-serif;
+    font-size: 14px;
+    margin: 0 0 14px 0; }
+  #presented #telus {
+    float: left;
+    padding: 30px; }
+    #presented #telus img {
+      width: 100%; }
+
+@media (min-width: 992px) {
+  #presented {
+    width: 205px; } }
+#mobile-nav {
+  position: absolute;
+  width: 220px;
+  right: 0;
+  display: none; }
+  #mobile-nav.open {
+    display: block; }
+  #mobile-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #mobile-nav ul li {
+      border-bottom: 1px solid #d9d9d9; }
+      #mobile-nav ul li a {
+        height: 45px;
+        padding: 10px 0 5px 20px;
+        color: #333;
+        display: inline-block;
+        width: 220px; }
+  @media (min-width: 992px) {
+    #mobile-nav {
+      display: none; } }
+
+#hamburger {
+  width: 45px;
+  height: 45px;
+  float: right;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px; }
+  #hamburger button {
+    border: none;
+    background: none; }
+    #hamburger button img {
+      width: 25px; }
+  #hamburger .burger {
+    display: block; }
+  #hamburger .bun {
+    display: none; }
+  #hamburger.open .burger {
+    display: none; }
+  #hamburger.open .bun {
+    display: block; }
+  @media (min-width: 992px) {
+    #hamburger {
+      display: none; } }
+
+h1 {
+  font-family: "web_homestead", Impact, Charcoal, sans-serif; }
+
+h2 {
+  font-family: "web_blenda", "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+h3, h4, h5 {
+  font-family: "Courier New", Courier, monospace; }
+
+.multi-poly {
+  background: url(/static/images/multi-bg.jpg);
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #933a55;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center; }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+    .multi-poly {
+      background-attachment: scroll; } }
+
+.red-poly {
+  background: url(/static/images/red-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #c84267; }
+
+.green-poly {
+  background: url(/static/images/green-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #78bc4e; }
+
+.blue-poly {
+  background: url(/static/images/blue-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #3489c4; }
+
+.purple-poly {
+  background: url(/static/images/purple-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 3px #565656;
+  border-bottom: 5px solid #a24dce; }
+
+header {
+  height: 105px;
+  border-bottom: 5px solid #ecf0f1; }
+  header #logo {
+    float: left;
+    margin-top: 7px; }
+  header nav {
+    display: none; }
+  @media (min-width: 992px) {
+    header nav {
+      display: block;
+      float: right; }
+      header nav ul {
+        list-style: none;
+        margin: 35px 0 0 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: bold; }
+        header nav ul li {
+          text-align: center;
+          width: 115px;
+          float: left; }
+          header nav ul li a, header nav ul li a:link, header nav ul li a:active, header nav ul li a:visited {
+            color: #2c3e50; }
+          header nav ul li a:hover {
+            color: #34495e; }
+          header nav ul li.active a, header nav ul li.active a:link, header nav ul li.active a:active, header nav ul li.active a:visited, header nav ul li.active a:hover {
+            color: #2980b9; } }
+
+.sub-header {
+  padding: 32px 0;
+  text-align: center;
+  color: #fff; }
+  .sub-header h2 {
+    font-size: 4.2rem; }
+
+#masthead-sm {
+  padding: 24px 0;
+  text-align: center;
+  color: #fff; }
+
+#masthead {
+  text-align: center;
+  color: #fff;
+  padding: 64px 0; }
+  #masthead h1 {
+    font-size: 4.2rem; }
+  #masthead h2 {
+    font-size: 2.2rem; }
+  #masthead h3 {
+    font-size: 2.8rem; }
+  #masthead h4 {
+    font-size: 2.1rem;
+    font-family: Georgia, Palatino, serif;
+    font-style: italic; }
+  @media (min-width: 992px) {
+    #masthead h1 {
+      font-size: 9.2rem; }
+    #masthead h2 {
+      font-size: 4.2rem; } }
+  #masthead #mc_embed_signup {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.8rem;
+    letter-spacing: 1px; }
+    #masthead #mc_embed_signup label {
+      font-weight: normal; }
+    #masthead #mc_embed_signup input {
+      color: #000;
+      font-size: 1.2rem; }
+
+#about {
+  padding: 64px 0; }
+
+#quotes {
+  display: none; }
+
+@media (min-width: 992px) {
+  #quotes {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 64px 128px;
+    height: 270px; }
+    #quotes .quote {
+      font-family: Georgia, Palatino, serif;
+      font-style: italic;
+      font-size: 32px;
+      display: none; }
+      #quotes .quote:first-of-type {
+        display: block; } }
+#streams {
+  padding: 64px 0; }
+  #streams h2 {
+    margin-bottom: 30px; }
+  #streams .stream-img {
+    text-align: center;
+    height: 60px; }
+
+#updates {
+  padding: 64px 0;
+  color: #fff;
+  text-align: center; }
+  #updates h3 {
+    font-size: 32px;
+    font-family: Georgia, Palatino, serif;
+    font-style: italic; }
+  #updates #mc_embed_signup {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    letter-spacing: 1px; }
+    #updates #mc_embed_signup label {
+      font-weight: normal; }
+    #updates #mc_embed_signup input {
+      color: #000;
+      font-size: 12px; }
+
+#sponsors-title {
+  color: #fff;
+  padding: 24px 0; }
+
+#sponsors, #schedule-content {
+  padding: 24px 0; }
+
+#speakers {
+  padding: 24px 0; }
+  #speakers .speaker {
+    margin-bottom: 20px; }
+    #speakers .speaker img {
+      float: left;
+      margin-right: 10px;
+      max-width: 160px; }
+
+.session-card {
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+  min-height: 95px;
+  margin-bottom: 10px;
+  cursor: pointer; }
+  .session-card span {
+    display: block; }
+    .session-card span.title {
+      font-weight: bold;
+      font-size: 12px; }
+    .session-card span.time {
+      font-size: 12px; }
+    .session-card span.room {
+      font-size: 12px; }
+    .session-card span.speaker {
+      font-size: 12px; }
+    .session-card span.clickmore {
+      font-size: 10px; }
+    .session-card span.abstract {
+      display: none;
+      font-size: 12px; }
+  .session-card.FL {
+    width: 99%;
+    clear: both; }
+  .session-card.FS {
+    border-left: 2px solid #78bc4e; }
+  .session-card.CC {
+    border-left: 2px solid #a24dce; }
+  .session-card.OL {
+    border-left: 2px solid #3489c4; }
+  .session-card.PL {
+    border-left: 2px solid #c84267; }
+  @media (min-width: 992px) {
+    .session-card.PL, .session-card.OL, .session-card.CC, .session-card.FS {
+      width: 19%;
+      float: left;
+      margin-right: 1%; }
+    .session-card.open {
+      width: 99%; } }
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 64px 0; }
+
+.clearfix {
+  clear: both; }
+
+#partner, #bronze, #friend, #gold, #silver, #platnium, #presenting {
+  text-align: center;
+  padding: 0 15px;
+  position: relative; }
+  #partner h2, #bronze h2, #friend h2, #gold h2, #silver h2, #platnium h2, #presenting h2 {
+    margin: 30px 0 30px 0; }
+  #partner .sponsorList, #bronze .sponsorList, #friend .sponsorList, #gold .sponsorList, #silver .sponsorList, #platnium .sponsorList, #presenting .sponsorList {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+  #partner .sponsor, #bronze .sponsor, #friend .sponsor, #gold .sponsor, #silver .sponsor, #platnium .sponsor, #presenting .sponsor {
+    vertical-align: middle;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 50px; }
+    #partner .sponsor img, #bronze .sponsor img, #friend .sponsor img, #gold .sponsor img, #silver .sponsor img, #platnium .sponsor img, #presenting .sponsor img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto; }
+
+#presenting .sponsor {
+  width: 100%;
+  text-align: center; }
+
+#presenting .sponsor {
+  max-width: 290px; }
+
+#platnium .sponsor {
+  max-width: 190px;
+  margin-right: 30px; }
+
+#gold .sponsor {
+  max-width: 150px;
+  margin-right: 30px; }
+
+#silver .sponsor {
+  max-width: 135px;
+  margin-right: 30px; }
+
+#bronze .sponsor {
+  max-width: 95px;
+  margin-right: 30px; }
+
+#partner .sponsor {
+  max-width: 75px;
+  margin-right: 30px; }
+
+@media (min-width: 992px) {
+  .sponsor {
+    margin-bottom: 0px; }
+
+  #presenting .sponsor {
+    max-width: 450px; }
+
+  #platnium .sponsor {
+    max-width: 275px; }
+
+  #gold .sponsor {
+    max-width: 225px; }
+
+  #silver .sponsor {
+    max-width: 170px; }
+
+  #bronze .sponsor {
+    max-width: 125px; }
+
+  #partner .sponsor {
+    max-width: 100px; } }
+.center {
+  text-align: center; }
+
+@font-face {
+  font-family: 'web_blenda';
+  src: url("/static/fonts/blenda_script-webfont.eot");
+  src: url("/static/fonts/blenda_script-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/blenda_script-webfont.woff2") format("woff2"), url("/static/fonts/blenda_script-webfont.woff") format("woff"), url("/static/fonts/blenda_script-webfont.ttf") format("truetype"), url("/static/fonts/blenda_script-webfont.svg#blenda_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'web_homestead';
+  src: url("/static/fonts/homestead-inline-webfont.eot");
+  src: url("/static/fonts/homestead-inline-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/homestead-inline-webfont.woff2") format("woff2"), url("/static/fonts/homestead-inline-webfont.woff") format("woff"), url("/static/fonts/homestead-inline-webfont.ttf") format("truetype"), url("/static/fonts/homestead-inline-webfont.svg#homestead_inlineinline") format("svg");
+  font-weight: normal;
+  font-style: normal; }

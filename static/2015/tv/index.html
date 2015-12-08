@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/css/main.css"/>
+        <style>
+        *, html {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        body{ 
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 1920px;
+          height: 1080px;
+        }
+        .tweet-frame{
+          width: 870px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+        }
+        .sched-frame {
+          width: 350px;
+          position: absolute;
+          top: 0;
+          left: 870px;
+          overflow-x: hidden;
+          padding: 10px;
+
+        }
+        .map-frame{
+          width: 700px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          overflow: hidden;
+        }
+        .session-card {
+          width: 100% !important;
+        }
+        .sessions-holder {
+          overflow: scroll;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="tweet-frame">
+<iframe src="http://fstoconf15.tweetwall.com/" style="border:0px #FFFFFF none;" name="tweetwall" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="1080px" width="1220px"></iframe>
+        </div>
+        <div class="sched-frame">
+          <div class="saturday">
+      <h2>On Now</h2>
+      <div class="sessions-holder">
+      </div>
+    </div>
+    <!-- <div class="sunday">
+      <h2>Sunday Nov. 15th</h2>
+      <div class="sessions-holder">
+      </div>
+    </div> -->
+        </div>
+        <div class="map-frame">
+          <img src="/static/images/tv-map.jpg" width="700" height="1080" />
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+"use strict"
+if (window.location.protocol != "http:") {
+  window.location.href = "http:" + window.location.href.substring(window.location.protocol.length);
+}
+$(function(){
+  var getSessions = function(){
+    $.ajax("http://lanyrd.com/2015/fstoconf/schedule/110c8d3d435de071.v1.json", {
+      type: "GET",
+      dataType: "JSONP",
+      success: function(data){
+        parseSchedule(data);
+      },
+      error: function(){
+        console.error("Couldn't Load Lanyrd JSON");
+      }
+    });
+  };
+  var parseSchedule = function(data){
+    var sat = data.sessions[0];
+    var sun = data.sessions[1];
+    var satSessions = sat.sessions;
+    var sunSessions = sun.sessions;
+    $.each(satSessions, function(i){
+      var speaker = "";
+      if(satSessions[i].speakers.length > 0){
+        speaker = satSessions[i].speakers[0].name
+      }
+      $(".saturday .sessions-holder").append('<div class="session-card '+satSessions[i].title.split(" | ")[1]+'" data-time="'+satSessions[i].start_time+'"">'
+        + '<span class="title">'+satSessions[i].title.split(" | ")[0]+'</span>'
+        + '<span class="room">'+satSessions[i].space+'</span>'
+        + '<span class="time">'+satSessions[i].times+'</span>'
+        + '<span class="speaker">'+speaker+'</span>'
+      + '</div>');
+    });
+    /*$.each(sunSessions, function(i){
+      var speaker = "";
+      if(sunSessions[i].speakers.length > 0){
+        speaker = sunSessions[i].speakers[0].name
+      }
+      $(".sunday .sessions-holder").append('<div class="session-card '+sunSessions[i].title.split(" | ")[1]+'">'
+        + '<span class="title">'+sunSessions[i].title.split(" | ")[0]+'</span>'
+        + '<span class="room">'+sunSessions[i].space+'</span>'
+        + '<span class="time">'+sunSessions[i].times+'</span>'
+        + '<span class="speaker">'+speaker+'</span>'
+      + '</div>');
+    });
+    $(".session-card").on("click", function(e){
+      $(e.currentTarget).find("span.abstract").toggle();
+      $(e.currentTarget).toggleClass("open");
+    }); */
+  };
+  getSessions();
+});
+</script>
+    </body>
+</html>
