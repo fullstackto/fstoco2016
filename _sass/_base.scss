@@ -28,10 +28,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: $blue;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: darken($blue, 10%);
     }
 }
 
@@ -167,7 +167,12 @@ header.big {
     margin-top: 0;
 }
 
-
+.paper {
+  text-align: center;
+  p {
+    text-align: left;
+  }
+}
 
 // Bootstrap Overrides
 .text-primary {
