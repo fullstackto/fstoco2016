@@ -32,6 +32,7 @@ hr.light {
 a {
     @include transition-all;
     color: $blue;
+    text-decoration: underline;
     &:hover,
     &:focus {
         color: darken($blue, 10%);
@@ -57,6 +58,14 @@ p {
     background-color: $theme-primary;
 }
 
+.intro {
+    background-color: $blue;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+}
+
 .bg-dark {
     background-color: $theme-dark;
     color: white;
@@ -64,7 +73,6 @@ p {
 .multi-poly {
   background: url(/static/images/multi-bg.jpg);
   text-shadow: 1px 1px 3px #565656;
-  border-bottom: 5px solid #933a55;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
