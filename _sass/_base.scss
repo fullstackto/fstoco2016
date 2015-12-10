@@ -45,7 +45,13 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    //@include sans-serif-font;
+    font-family: "Courier New",Courier,monospace;
+    margin-bottom:15px;
+}
+
+h2 {
+	font-size: 35px;
 }
 
 p {
@@ -123,10 +129,6 @@ p {
     color: rgba(white, .7);
 }
 
-section {
-    padding: 25px;
-}
-
 aside {
     padding: 50px 0;
 }
@@ -140,6 +142,10 @@ aside {
 .navbar-default {
     background-color: white;
     color: #000;
+        .navbar-toggle {
+	    top:30px;
+	    right:10px;
+    }
     .navbar-header {
         height: 115px;
         .navbar-brand {
@@ -150,10 +156,11 @@ aside {
         }
     }
     .nav {
-        margin-top: 30px;
+        margin-top: 40px;
         > li {
             > a,
             > a:focus {
+                font-size: 15px;
                 color: #000;
                 text-transform: uppercase;
                 font-weight: bold;
@@ -165,23 +172,76 @@ aside {
     }
 }
 
-//  Header
-header.big {
-    height: 650px;
-    padding-top: 225px;
-    text-align: center;
+.navbar-default.navbar-shrink {
+	height:80px;
+	.navbar-toggle {
+	    top:15px;
+	    right:5px;
+    }
+
+	.navbar-header {
+        height: 75px;
+        .navbar-brand {
+            height: auto;
+            padding:5px;
+            img {
+                width: 70px;
+            }
+        }
+    }
+    .nav {
+        margin-top: 20px;
+        a, a:focus{
+	        font-size:13px;
+        }
+    }
+
 }
 
-header {
-    height: 350px;
-    padding-top: 125px;
+
+//  Header
+header.big {
+    padding-top: 150px;
     text-align: center;
+    h1 {
+	    font-family: "web_homestead", Impact, Charcoal, sans-serif;
+	    font-size: 100px;
+	    margin: 50px 0 30px;
+    }
+    h2 {
+	    font-family: "web_blenda","Palatino Linotype","Book Antiqua",Palatino,serif;
+	    font-size: 32px;
+	    margin:0 0 30px;
+    }
+    h3 {
+	    margin: 0 0 10px;
+	    font-size: 22px;
+    }
+	h4 {
+		margin:30px 0 50px;
+	}	
 }
 
 // Sections
 
+section {
+    padding: 80px 25px 40px;
+}
+section[class$='-poly'] {
+	padding: 50px 25px;
+}
+
+section.intro [class*='col-']:first-child p {
+	font-size:18px;
+	
+}
+
 .section-heading {
     margin-top: 0;
+}
+
+section iframe {
+	width:100%;
 }
 
 .paper {
@@ -223,9 +283,10 @@ header {
     color: $theme-primary;
 }
 
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+/*.no-gutter >*/[class*='col-'] {
+    //padding-right:0;
+    //padding-left:0;
+    padding-bottom: 10px;
 }
 
 // Button Styles

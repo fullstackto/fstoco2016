@@ -3,5 +3,4 @@
 ---
 @charset "utf-8";
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "mixins";
-@import "base";
+@import "mixins", "base";
