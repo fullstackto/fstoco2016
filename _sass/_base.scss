@@ -32,10 +32,11 @@ hr.light {
 a {
     @include transition-all;
     color: $blue;
-    text-decoration: underline;
+    font-weight: bold;
     &:hover,
     &:focus {
         color: darken($blue, 10%);
+        text-decoration: underline;
     }
 }
 
@@ -45,8 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-    //@include sans-serif-font;
-    font-family: "Courier New",Courier,monospace;
+    @include blenda;
     margin-bottom:15px;
 }
 
@@ -62,14 +62,6 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
-}
-
-.intro {
-    background-color: $blue;
-    color: #fff;
-    a {
-      color: #fff;
-    }
 }
 
 .bg-dark {
@@ -170,6 +162,14 @@ aside {
             }
         }
     }
+    #presented {
+    	width: 160px;
+		float: left;
+    	margin: 30px 10px;
+    	img {
+			width: 100%;
+			}
+	}
 }
 
 .navbar-default.navbar-shrink {
@@ -195,7 +195,14 @@ aside {
 	        font-size:13px;
         }
     }
-
+    #presented {
+    width: 145px;
+    float: left;
+    margin:15px;
+    	img {
+	    	width:100%
+    	}
+    }
 }
 
 
@@ -209,9 +216,8 @@ header.big {
 	    margin: 50px 0 30px;
     }
     h2 {
-	    font-family: "web_blenda","Palatino Linotype","Book Antiqua",Palatino,serif;
-	    font-size: 32px;
-	    margin:0 0 30px;
+	    margin:0 auto 30px;
+	    max-width:860px;
     }
     h3 {
 	    margin: 0 0 10px;
@@ -231,9 +237,21 @@ section[class$='-poly'] {
 	padding: 50px 25px;
 }
 
+section.intro {
+	background-color: $blue;
+	color: #fff;
+	a {
+      color: #fff;
+    }
+}
+
 section.intro [class*='col-']:first-child p {
-	font-size:18px;
-	
+	font-size:21px;
+}
+
+section.intro [class*='col-']:last-child p {
+	font-size:14px;
+	text-align: center
 }
 
 .section-heading {

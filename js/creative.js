@@ -35,9 +35,9 @@
         }
     );
     $("h2").fitText(
-        1.6, {
+        1.2, {
             minFontSize: '20px',
-            maxFontSize: '32px'
+            maxFontSize: '40px'
         }
     );
 
