@@ -47,7 +47,7 @@ h4,
 h5,
 h6 {
     @include blenda;
-    margin-bottom:15px;
+    margin:30px 0;
 }
 
 h2 {
@@ -69,6 +69,7 @@ p {
     color: white;
 }
 .multi-poly {
+    padding-top: 150px;
   background: url(/static/images/multi-bg.jpg);
   text-shadow: 1px 1px 3px #565656;
   background-size: cover;
@@ -208,7 +209,6 @@ aside {
 
 //  Header
 header.big {
-    padding-top: 150px;
     text-align: center;
     h1 {
 	    font-family: "web_homestead", Impact, Charcoal, sans-serif;
@@ -222,6 +222,7 @@ header.big {
     h3 {
 	    margin: 0 0 10px;
 	    font-size: 22px;
+        font-family: "Courier New",Courier,monospace;
     }
 	h4 {
 		margin:30px 0 50px;
@@ -268,6 +269,86 @@ section iframe {
     text-align: left;
   }
 }
+
+//Schedule
+.session-card {
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  min-height: 95px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  $borderleft: 3px solid;
+  span {
+    display: block;
+    font-size: 12px;
+    &.title {
+      font-weight: bold;
+      margin:10px 0;
+    }
+    &.clickmore {
+      font-size: 10px;
+    }
+
+    &.abstract {
+      display: none;
+    }
+  }
+ 
+  &.General {
+    width: 99%;
+    clear: both;
+  }
+  
+  &.BackEnd {
+    border-left: $borderleft #64AA3D;
+  }
+  
+  &.Creative {
+    border-left: $borderleft #009E98;
+  }
+  
+  &.DevOps {
+    border-left: $borderleft #2E84C9;
+  }
+  
+  &.FrontEnd {
+    border-left: $borderleft #B90F5F;
+  }
+  
+  &.FullStack {
+    border-left: $borderleft #FFDA6B;
+  }
+  
+  &.IoT {
+    border-left: $borderleft #BFB7AD;
+  }
+  
+  &.ProMan {
+    border-left: $borderleft #FA7600;
+  }
+  
+  &.ProDev {
+    border-left: $borderleft #995924;
+  }
+  
+  &.UX {
+    border-left: $borderleft #762275;
+  }
+
+  
+  @media (min-width: 992px)  {
+    &.BackEnd, &.Creative, &.DevOps, &.FrontEnd, &.FullStack,, &.IoT, &.ProMan, &.ProDev, &.UX {
+      width: 24%;
+      float: left;
+      margin-right: 1%;
+    }
+
+    &.open {
+      width: 99%;
+    }
+  }
+}
+
 
 //Sponsors
 .sponsor {
