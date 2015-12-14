@@ -277,6 +277,7 @@ section iframe {
   min-height: 95px;
   margin-bottom: 10px;
   cursor: pointer;
+  width: 99%;
   $borderleft: 3px solid;
   span {
     display: block;
@@ -295,7 +296,6 @@ section iframe {
   }
  
   &.General {
-    width: 99%;
     clear: both;
   }
   
