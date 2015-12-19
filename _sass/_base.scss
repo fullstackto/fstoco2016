@@ -148,6 +148,14 @@ aside {
             }
         }
     }
+    @media (max-width: 768px){
+	    .navbar-collapse.in, .navbar-collapse.collapsing {
+		    background:#fff;
+		    padding-bottom:10px;
+		    position: absolute;
+		    width:100%;
+    		}   
+    	}
     .nav {
         margin-top: 40px;
         > li {
