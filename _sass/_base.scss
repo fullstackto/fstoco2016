@@ -241,7 +241,10 @@ header.big {
 // Sections
 
 section {
-    padding: 80px 25px 40px;
+    padding: 40px 25px 40px;
+    h2 {
+      margin-top: 15px;
+    }
 }
 section[class$='-poly'] {
 	padding: 50px 25px;
