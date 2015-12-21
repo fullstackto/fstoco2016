@@ -49,11 +49,12 @@ h6 {
     @include blenda;
     margin:30px 0;
 }
-
-h2 {
-	font-size: 35px;
+h2{ font-size:40px}
+@media (max-width: 640px){
+		h2 {
+			font-size:35px;
+		}
 }
-
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -220,34 +221,57 @@ header.big {
     text-align: center;
     h1 {
 	    font-family: "web_homestead", Impact, Charcoal, sans-serif;
-	    font-size: 100px;
+	    font-size: 95px;
 	    margin: 50px 0 30px;
     }
     h2 {
 	    margin:0 auto 30px;
+	    font-size:50px;
 	    max-width:860px;
     }
     h3 {
 	    margin: 0 0 10px;
-	    font-size: 32px;
+	    font-size: 30px;
       font-family: "Courier New",Courier,monospace;
     }
 	h4 {
     font-family: "Courier New",Courier,monospace;
 		margin:30px 0 50px;
-	}	
+	}
+	@media (max-width: 768px){
+		h1 {
+			font-size:70px;
+		}
+		h2 {
+			font-size:40px;
+		}
+	@media (max-width: 640px){
+		h1 {
+			font-size:50px;
+		}
+		h2 {
+			font-size:35px;
+		}
+		h3 {
+			font-size:25px;
+		}
+}	
+}
+
 }
 
 // Sections
 
 section {
-    padding: 40px 25px 40px;
-    h2 {
-      margin-top: 15px;
-    }
+    padding: 50px 25px 40px;
 }
 section[class$='-poly'] {
 	padding: 50px 25px;
+	@media (max-width: 640px) {
+		h2 {
+			font-size: 30px;
+		}
+	}
 }
 
 section.intro {
@@ -256,15 +280,33 @@ section.intro {
 	a {
       color: #fff;
     }
+    [class*='col-']:first-child p {
+	  font-size:21px;
+	}
+	[class*='col-']:last-child 
+	p {
+	  font-size:14px;
+	  text-align: center
+	  
+	}
+	@media (min-width:768px) {
+		p:first-child {
+			padding-top:40px;
+		}
+	}
 }
-
-section.intro [class*='col-']:first-child p {
-	font-size:21px;
-}
-
-section.intro [class*='col-']:last-child p {
-	font-size:14px;
-	text-align: center
+section.attending {
+	h2 {
+		font-size:35px;
+	}
+	@media (min-width:993px) and (max-width:1200px) {
+		h2 { font-size: 29px;}
+	}
+	@media (max-width: 640px) {
+		h2 {
+			font-size: 30px;
+		}
+	}
 }
 
 .section-heading {
