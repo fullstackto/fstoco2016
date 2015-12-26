@@ -334,8 +334,10 @@ header.big {
 				}
 			}
 		}
-		[class*='col-']:last-child {
-			border-left: 2px solid #F2F2F2;
+		@media (min-width:992px) {
+			[class*='col-']:last-child {
+				border-left: 2px solid #F2F2F2;
+			}
 		}
     .left {
       text-align: left;
