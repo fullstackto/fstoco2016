@@ -19,14 +19,18 @@ $(document).ready(function() {
                <span class="title">${obj.topic}</span>
                <span class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</span>
                <span class="time">${obj.display_start_time} - ${obj.display_end_time}</span>
-               <span class="description">${obj.description}</span>
+               <span class="clickmore">Click to show/hide abstract</span>
+               <span class="abstract">${obj.description}</span>
              </div>`
           );
         });
+        $(".session-card").on("click", function(e){
+          $(e.currentTarget).find("span.abstract").toggle();
+          $(e.currentTarget).toggleClass("open");
+        });
       });
-      
 }); 
   
   
 //../141857.json
-//http://integration.eventmobi.com/api/events/fstoco2016/sections/141857
+//http://eventmobi.com/api/events/fstoco2016/sections/141857
