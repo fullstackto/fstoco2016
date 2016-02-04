@@ -11,7 +11,7 @@ $(document).ready(function() {
               186311: 'Creative',
               186312: 'IoT'};
   
-    $.getJSON("http://integration.eventmobi.com/api/events/fstoco2016/sections/141857",
+    $.getJSON("https://eventmobi.com/api/events/fstoco2016/sections/141857",
       function(json) { json.response.items.map(function(obj) {
         dayDiv = (obj.date=="2016-10-17")?'.day1':'.day2';
           $(dayDiv+' .sessions-holder').append(
