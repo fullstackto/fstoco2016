@@ -507,6 +507,30 @@ section iframe {
   }
 }
 
+//Speakers
+.speakerBundle {
+  clear:both;
+  display:flex;
+  flex-wrap: wrap;
+  .speaker {
+    margin:30px 0;
+    img {
+      margin-bottom:15px;
+      float:left;
+      padding-right:15px;
+    }
+    h4 {
+      font-family: Courier ;
+    }
+    h4, h3 {
+      margin:0;
+      margin-bottom:15px;
+    }
+    p {
+      clear:both;
+    }
+  }
+}  
 
 //Sponsors
 .sponsor {
