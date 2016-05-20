@@ -25,8 +25,10 @@ $(document).ready(function() {
              <span class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</span>
              <span class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</span>
              <span class="clickmore">Click to show/hide abstract</span>
-             <span class="abstract">${obj.description}</span>
-             <span class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></speaker>
+             <span class="abstract">${obj.description}
+              <span class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></speaker>
+             </span>
+
            </div>`
         );
       });
