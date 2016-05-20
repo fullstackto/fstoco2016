@@ -33,7 +33,7 @@ $(document).ready(function() {
         );
       });
       $(".session-card").on("click", function(e){
-        $(e.currentTarget).find("span.abstract").toggle();
+        $(e.currentTarget).find("div.abstract").toggle();
         $(e.currentTarget).toggleClass("open");
       });
     });
@@ -55,7 +55,7 @@ $(document).ready(function() {
       );
       window.setTimeout( function() {
         $(".speaker[data-speaker-id='"+obj.id+"']").append(
-          `<div class="speakerBlock">
+          `<div class="speakerblock">
             <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Headshot"/>
             <h3 id="-">${obj.first_name}</h3>
             <h4>${obj.title}&nbsp;at&nbsp;${obj.company_name}</h4>
