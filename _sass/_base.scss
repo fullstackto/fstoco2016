@@ -5,7 +5,7 @@ $orange: #d0804d;
 $green: #78bc4e;
 $blue: #3489c4;
 $theme-primary: #933a55;
-$theme-dark: #933a55;   
+$theme-dark: #933a55;
 * {
   box-sizing: border-box;
 }
@@ -77,8 +77,8 @@ p {
   background-attachment: fixed;
   background-position: center center;
   color: #fff;
-  @media only screen 
-  and (min-device-width : 414px) 
+  @media only screen
+  and (min-device-width : 414px)
   and (max-device-width : 736px) {
     background-attachment: scroll;
   }
@@ -90,6 +90,11 @@ p {
   text-shadow: 1px 1px 3px #565656;
   border-bottom: 5px solid #c84267;
   color: #fff;
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
 }
 
 .green-poly {
@@ -99,6 +104,11 @@ p {
   text-shadow: 1px 1px 3px #565656;
   border-bottom: 5px solid #78bc4e;
   color: #fff;
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
 }
 
 .blue-poly {
@@ -108,6 +118,11 @@ p {
   text-shadow: 1px 1px 3px #565656;
   border-bottom: 5px solid #3489c4;
   color: #fff;
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
 }
 
 .purple-poly {
@@ -117,6 +132,11 @@ p {
   text-shadow: 1px 1px 3px #565656;
   border-bottom: 5px solid #a24dce;
   color: #fff;
+  @media only screen
+  and (min-device-width : 414px)
+  and (max-device-width : 736px) {
+    background-attachment: scroll;
+  }
 }
 
 .text-faded {
@@ -132,7 +152,9 @@ aside {
 }
 
 // Navigation
-
+.navbar-fixed-top {
+  z-index: 930;
+}
 .navbar-default {
     background-color: white;
     color: #000;
@@ -164,7 +186,7 @@ aside {
 	    padding-bottom:10px;
 	    width:100%;
 	    position: relative;
-      }   
+      }
     }
     .nav {
         margin-top: 40px;
@@ -253,7 +275,7 @@ header.big {
 		h2 {
 			font-size:40px;
 		}
-	}	
+	}
 	@media (max-width: 640px){
 		h1 {
 			font-size:50px;
@@ -357,7 +379,7 @@ header.big {
     .right {
       padding-top: 50px;
     }
-  }	
+  }
 }
 .greytext {
   color: #999;
@@ -387,11 +409,11 @@ section.intro {
     [class*='col-']:first-child p {
 	  font-size:21px;
 	}
-	[class*='col-']:last-child 
+	[class*='col-']:last-child
 	p {
 	  font-size:14px;
 	  text-align: center
-	  
+
 	}
 	@media (min-width:768px) {
 		p:first-child {
@@ -452,48 +474,48 @@ section iframe {
       display: none;
     }
   }
- 
+
   &.General {
     clear: both;
   }
-  
+
   &.BackEnd {
     border-left: $borderleft #64AA3D;
   }
-  
+
   &.Creative {
     border-left: $borderleft #009E98;
   }
-  
+
   &.DevOps {
     border-left: $borderleft #2E84C9;
   }
-  
+
   &.FrontEnd {
     border-left: $borderleft #B90F5F;
   }
-  
+
   &.FullStack {
     border-left: $borderleft #FFDA6B;
   }
-  
+
   &.IoT {
     border-left: $borderleft #BFB7AD;
   }
-  
+
   &.ProMan {
     border-left: $borderleft #FA7600;
   }
-  
+
   &.ProDev {
     border-left: $borderleft #995924;
   }
-  
+
   &.UX {
     border-left: $borderleft #762275;
   }
 
-  
+
   @media (min-width: 992px)  {
     &.BackEnd, &.Creative, &.DevOps, &.FrontEnd, &.FullStack,, &.IoT, &.ProMan, &.ProDev, &.UX {
       width: 24%;
@@ -530,7 +552,7 @@ section iframe {
       clear:both;
     }
   }
-}  
+}
 
 //Sponsors
 .sponsor {
@@ -559,12 +581,12 @@ section iframe {
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
     a {
-      display:block;  
+      display:block;
       position:relative;
       top:50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      transform: translateY(-50%);    
+      transform: translateY(-50%);
     }
   }
 }
