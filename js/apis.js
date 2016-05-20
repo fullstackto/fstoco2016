@@ -51,7 +51,7 @@ $(document).ready(function() {
           <p>${obj.about}</p>
         </div>`
       );
-      window.setTimeout(
+      window.setTimeout( function() {
         $(".speaker[data-speaker-id='"+obj.id+"']").append(
           `<div class="speakerBlock">
             <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Headshot"/>
@@ -61,7 +61,7 @@ $(document).ready(function() {
             <p>${obj.about}</p>
           </div>`
         );
-      ,1000);
+      }, 1000);
     });
   });
 });
