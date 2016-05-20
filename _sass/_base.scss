@@ -471,8 +471,13 @@ section iframe {
     display: none;
   }
   .speaker {
-    p {
-      font-size: 12px;
+    margin-top: 5px;
+    .speakerblock{
+      p {
+        font-size: 12px;
+        line-height: 1em;
+        margin: 0;
+      }
     }
   }
 
