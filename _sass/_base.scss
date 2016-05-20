@@ -454,10 +454,11 @@ section iframe {
 .session-card {
   border: 1px solid #d9d9d9;
   padding: 10px;
-  min-height: 95px;
+  min-height: 110px;
   margin-bottom: 10px;
   cursor: pointer;
   width: 99%;
+  font-size: 12px;
   $borderleft: 3px solid;
   .title {
     font-weight: bold;

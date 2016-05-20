@@ -21,14 +21,13 @@ $(document).ready(function() {
       dayDiv = (obj.date=="2016-10-17")?'.day1':'.day2';
         $(dayDiv+' .sessions-holder').append(
           `<div class="session-card ${tracks[obj.group_ids[0] || 0]}">
-             <div class="title">${obj.topic}</span>
-             <div class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</span>
-             <div class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</span>
-             <div class="clickmore">Click to show/hide abstract</span>
+             <div class="title">${obj.topic}</div>
+             <div class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</div>
+             <div class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</div>
+             <div class="clickmore">Click to show/hide abstract</div>
              <div class="abstract">${obj.description}
               <div class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></div>
              </div>
-
            </div>`
         );
       });
