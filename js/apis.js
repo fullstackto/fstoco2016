@@ -21,19 +21,19 @@ $(document).ready(function() {
       dayDiv = (obj.date=="2016-10-17")?'.day1':'.day2';
         $(dayDiv+' .sessions-holder').append(
           `<div class="session-card ${tracks[obj.group_ids[0] || 0]}">
-             <span class="title">${obj.topic}</span>
-             <span class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</span>
-             <span class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</span>
-             <span class="clickmore">Click to show/hide abstract</span>
-             <span class="abstract">${obj.description}
-              <span class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></speaker>
-             </span>
+             <div class="title">${obj.topic}</span>
+             <div class="room">${obj.location[0].name?(isNaN(obj.location[0].name)?obj.location[0].name:'Room '+obj.location[0].name):obj.location}</span>
+             <div class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</span>
+             <div class="clickmore">Click to show/hide abstract</span>
+             <div class="abstract">${obj.description}
+              <div class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></div>
+             </div>
 
            </div>`
         );
       });
       $(".session-card").on("click", function(e){
-        $(e.currentTarget).find("div.abstract").toggle();
+        $(e.currentTarget).find(".abstract").toggle();
         $(e.currentTarget).toggleClass("open");
       });
     });
@@ -56,10 +56,8 @@ $(document).ready(function() {
       window.setTimeout( function() {
         $(".speaker[data-speaker-id='"+obj.id+"']").append(
           `<div class="speakerblock">
-            <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Headshot"/>
-            <h3 id="-">${obj.first_name}</h3>
-            <h4>${obj.title}&nbsp;at&nbsp;${obj.company_name}</h4>
-            <h4><a class="twitter-follow-button" href="${obj.twitter}" data-show-count="false" data-lang="en">${obj.twitter}</a></h4>
+            <p><strong>${obj.first_name}</strong></p>
+            <p>${obj.title}&nbsp;at&nbsp;${obj.company_name}</p>
             <p>${obj.about}</p>
           </div>`
         );

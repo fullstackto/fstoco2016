@@ -459,20 +459,15 @@ section iframe {
   cursor: pointer;
   width: 99%;
   $borderleft: 3px solid;
-  div {
-    display: block;
-    font-size: 12px;
-    &.title {
-      font-weight: bold;
-      margin:10px 0;
-    }
-    &.clickmore {
-      font-size: 10px;
-    }
-
-    &.abstract {
-      display: none;
-    }
+  .title {
+    font-weight: bold;
+    margin:10px 0;
+  }
+  .clickmore {
+    font-size: 10px;
+  }
+  .abstract {
+    display: none;
   }
 
   &.General {
