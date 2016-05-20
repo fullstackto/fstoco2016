@@ -470,6 +470,11 @@ section iframe {
   .abstract {
     display: none;
   }
+  .speaker {
+    p {
+      font-size: 12px;
+    }
+  }
 
   &.General {
     clear: both;

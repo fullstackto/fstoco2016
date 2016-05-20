@@ -55,7 +55,7 @@ $(document).ready(function() {
       window.setTimeout( function() {
         $(".speaker[data-speaker-id='"+obj.id+"']").append(
           `<div class="speakerblock">
-            <p><strong>${obj.first_name}</strong></p>
+            <p>Speaker: <strong>${obj.first_name}</strong></p>
             <p>${obj.title}&nbsp;at&nbsp;${obj.company_name}</p>
             <p>${obj.about}</p>
           </div>`
