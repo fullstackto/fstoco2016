@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  
-  
-// schedule  
+
+
+// schedule
 // https://eventmobi.com/api/events/fstoco2016/sections/141857
 
   var dayDiv, session,
@@ -15,7 +15,7 @@ $(document).ready(function() {
               186310: 'ProDev',
               186311: 'Creative',
               186312: 'IoT'};
-  
+
   $.getJSON("https://eventmobi.com/api/events/fstoco2016/sections/141857",
     function(json) { json.response.items.map(function(obj) {
       dayDiv = (obj.date=="2016-10-17")?'.day1':'.day2';
@@ -26,6 +26,7 @@ $(document).ready(function() {
              <span class="time">${obj.display_start_time}&nbsp;-&nbsp;${obj.display_end_time}</span>
              <span class="clickmore">Click to show/hide abstract</span>
              <span class="abstract">${obj.description}</span>
+             <span class="speaker" data-speaker-id="${obj.speaker_ids[0]}"></speaker>
            </div>`
         );
       });
@@ -36,14 +37,23 @@ $(document).ready(function() {
     });
 
 
-// speakers  
+// speakers
 // https://eventmobi.com/api/events/fstoco2016/sections/141859
- 
+
   $.getJSON("https://eventmobi.com/api/events/fstoco2016/sections/141859",
     function(json) { json.response.items.map(function(obj) {
       $(".speakerBundle").append(
         `<div class="speaker col-md-6">
-          <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Ahmad Nassri Headshot"/>
+          <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Headshot"/>
+          <h3 id="-">${obj.first_name}</h3>
+          <h4>${obj.title}&nbsp;at&nbsp;${obj.company_name}</h4>
+          <h4><a class="twitter-follow-button" href="${obj.twitter}" data-show-count="false" data-lang="en">${obj.twitter}</a></h4>
+          <p>${obj.about}</p>
+        </div>`
+      );
+      $(".speaker[data-speaker-id='"+obj.id+"']").append(
+        `<div class="speakerBlock">
+          <img src="https://s3.amazonaws.com/eventmobi-assets/eventsbyids/11159/people/${obj.image100}" alt="Headshot"/>
           <h3 id="-">${obj.first_name}</h3>
           <h4>${obj.title}&nbsp;at&nbsp;${obj.company_name}</h4>
           <h4><a class="twitter-follow-button" href="${obj.twitter}" data-show-count="false" data-lang="en">${obj.twitter}</a></h4>
@@ -52,4 +62,4 @@ $(document).ready(function() {
       );
     });
   });
-}); 
+});
