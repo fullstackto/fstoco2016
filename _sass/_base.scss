@@ -385,6 +385,9 @@ header.big {
   color: #999;
 }
 
+.feat img { transition: all .2s ease-in-out; }
+.feat:hover img { transform: scale(1.1); }
+
 // Sections
 
 section {
