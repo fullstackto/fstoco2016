@@ -1,50 +1,11 @@
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="2dVIu83aF5CgxgbO2Oj8UDYVxOcp3T9UK5kLDqX_63s" />
-    <title>{{ page.title }} | Full Stack Toronto</title>
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+  <title>{% if page.title %}{{ page.title | escape }}{% endif %} | {{ site.title | escape }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css?v7" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <meta name="description" content="Full Stack Toronto is a non-profit that hosts monthly seminars and an annual conference that covers all the layers of the web and the people who weave it! #fstoco is coming up Oct. 17-18th, 2016 in Toronto, Canada" />
-    <meta name="keywords" content="Front-End Design Conference, Full STack, Full Stack Toronto, FSTO, Web Conference, Design, Development, Business, Marketing, Toronto, Ontario, Canada, Front-End, Front End, Back-end, back end, devops, dev ops, product development, project management, web development conference, web design conference, ux conference, devops conference, product conference, exhibit hall">
-    <meta name="Category" content="Conferences" />
-
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Full Stack Toronto">
-    <meta itemprop="description" content="Full Stack Toronto is a non-profit that hosts monthly seminars and an annual conference that covers all the layers of the web and the people who weave it! #fstoco is coming up Oct. 17-18th, 2016 in Toronto, Canada">
-    <meta itemprop="image" content="https://fsto.co/static/images/card.jpg?v=2">
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@fullstackto">
-    <meta name="twitter:title" content="{{ page.title }} | Full Stack Toronto">
-    <meta name="twitter:description" content="Full Stack Toronto is a non-profit that hosts monthly seminars and an annual conference that covers all the layers of the web and the people who weave it! #fstoco is coming up Oct. 17-18th, 2016 in Toronto, Canada">
-    <meta name="twitter:creator" content="@fullstackto">
-    <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image:src" content="https://fsto.co/static/images/card.jpg?v=2">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="{{ page.title }} | Full Stack Toronto" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://fsto.co" />
-    <meta property="og:image" content="https://fsto.co/static/images/card.jpg?v=2" />
-    <meta property="og:description" content="Full Stack Toronto is a non-profit that hosts monthly seminars and an annual conference that covers all the layers of the web and the people who weave it! #fstoco is coming up Oct. 17-18th, 2016 in Toronto, Canada" />
-    <meta property="og:site_name" content="Full Stack Toronto" />
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

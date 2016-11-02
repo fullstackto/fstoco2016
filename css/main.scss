@@ -1,6 +1,136 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "mixins", "base";
+//xs first
+// table up @media(min-width:768px){}
+// desktop up @media(min-width:992px){}
+// big desktop up @media(min-width:1200px){}
+@import "bootstrap";
+body{
+  line-height: 1.5em;
+}
+header#home {
+    position: relative;
+    background-image: url("/images/bg.jpg");
+    background-attachment: scroll;
+    background-position: 80% 65%;
+    height: 300px;
+    @media(min-width:768px){
+        background-size: cover;
+        background-position: center center;
+        height: 700px;
+    }
+    nav {
+      &.navigation {
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          li{
+            list-style: none;
+            margin: 0;
+            padding: 32px 0 0 0;
+            float: left;
+            &.logo{
+              padding: 0;
+              a {
+                padding-left: 0;
+                &:hover{
+                  border-bottom: 2px solid transparent;
+                }
+              }
+              img {
+                height: 65px;
+              }
+            }
+            a{
+              color: #fff;
+              font-size: 14px;
+              font-weight: 300;
+              padding: 10px;
+              border-bottom: 2px solid transparent;
+              &:hover{
+                color: #fff;
+                text-decoration: none;
+                border-bottom: 2px solid #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .title {
+      width: 100%;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+      line-height: 3em;
+      position: absolute;
+      top: 35%;
+      h2 {
+        font-size: 24px;
+        font-weight: 100;
+      }
+
+      @media(min-width:768px){
+        width: 640px;
+        top: 25%;
+        h2 {
+          font-size: 46px;
+        }
+      }
+    }
+    .buttons-area{
+      margin-left: -10px;
+      margin-top: 30px;
+    }
+}
+.white-btn {
+  background: #ffffff;
+  color: #000;
+  padding: 15px 20px;
+  margin: 10px;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+  display: inline-block;
+  line-height: 1em;
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
+.black-btn {
+  background: #000000;
+  color: #fff;
+  padding: 15px 20px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  display: inline-block;
+  &:hover {
+    color: #565656;
+    text-decoration: none;
+  }
+}
+.black-o-btn {
+  color: #000;
+  padding: 15px 20px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+  display: inline-block;
+  transition: border 0.5s;
+  &:hover {
+    color: #565656;
+    text-decoration: none;
+    border: 1px solid #565656;
+    transition: border 0.5s;
+  }
+}
+.clear-btn {
+  border: 1px solid #ffffff;
+  color: #fff;
+  padding: 15px 20px;
+  margin: 10px;
+  text-transform: capitalize;
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
