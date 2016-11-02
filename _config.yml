@@ -9,7 +9,7 @@
 title: Full Stack Toronto
 email: comms@fsto.co
 description: > # this means to ignore newlines until "baseurl:"
-  Full Stack Toronto runs programs for developers and designers to advance
+  Full Stack Toronto runs programs for developers to advance
   their career and give back to the community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fsto.co" # the base hostname & protocol for your site
